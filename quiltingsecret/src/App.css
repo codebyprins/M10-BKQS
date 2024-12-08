@@ -1,0 +1,23 @@
+
+.list-items{
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+  list-style: none;
+
+}
+
+nav {
+  gap: 2rem;
+  display: flex;          
+  justify-content: center;
+  align-items: center;    /* Centers the content vertically */
+  height: 100px;          /* Specify an appropriate height for the navigation block */
+  background-color: #f0f0f0; /* Optional background color for visibility */
+}
+
+
+h1{
+  margin-left: 10rem;
+}

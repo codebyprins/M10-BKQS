@@ -1,12 +1,17 @@
 import './App.css'
+import { placeholder } from './array.jsx';
+import { getImageUrl } from './utils.jsx';
 
 function Header(){
     return (
     <>
       
       <nav>
-        <img src="" alt="" />
-        <h1>A Quilting Secret</h1>
+        <div className='logo-holder'>
+          <img className='logo'
+            src={getImageUrl(placeholder)} 
+           />
+        </div>
         <ul className='list-items'>
           <li>Shop</li>
           <li>Contact</li>

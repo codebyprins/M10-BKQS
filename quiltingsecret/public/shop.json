@@ -1,0 +1,91 @@
+{
+    "filters": [
+        {
+            "name": "Alle producten",
+            "class": "filter-listItem filter-active"
+        },
+        {
+            "name": "Eenpersoonsbed",
+            "class": "filter-listItem"
+        },
+        {
+            "name": "Kinderwagendeken",
+            "class": "filter-listItem"
+        },
+        {
+            "name": "Kussens",
+            "class": "filter-listItem"
+        },
+        {
+            "name": "Ledikantje",
+            "class": "filter-listItem"
+        },
+        {
+            "name": "Tweepersoonsbed",
+            "class": "filter-listItem"
+        },
+        {
+            "name": "Twijfelaar",
+            "class": "filter-listItem"
+        }
+    ],
+    "products": {
+        "item0": {
+            "id" : "0",
+            "name": "Placeholders 0",
+            "img": "./src/assets/IMG_8159.jpeg",
+            "price": "€175?"
+        },
+        "item1": {
+            "id" : "1",
+            "name": "Placeholders 1",
+            "img": "./src/assets/IMG_8170.jpeg",
+            "price": "€175?"
+        },
+        "item2": {
+            "id" : "2",
+            "name": "Placeholders 2",
+            "img": "./src/assets/IMG_8181.jpeg",
+            "price": "€175?"
+        },
+        "item3": {
+            "id" : "3",
+            "name": "Placeholders 3",
+            "img": "./src/assets/IMG_8195.jpeg",
+            "price": "€175?"
+        },
+        "item4": {
+            "id" : "4",
+            "name": "Placeholders 4",
+            "img": "./src/assets/IMG_8205.jpeg",
+            "price": "€175?"
+        },
+        "item5": {
+            "id" : "5",
+            "name": "Couvert Garden White",
+            "img": "./src/assets/IMG_8245.jpeg",
+            "price": "€175?",
+            "measurments": "77x54"
+            
+        },
+        "item6": {
+            "id" : "6",
+            "name": "Summer Breeze",
+            "img": "./src/assets/IMG_8217.jpeg",
+            "price": "€175?",
+            "measurments": "150x100"
+        },
+        "item7": {
+            "id" : "7",
+            "name": "Placeholders 7",
+            "img": "./src/assets/IMG_8234.jpeg",
+            "price": "€175?"
+        },
+        "item8": {
+            "id" : "8",
+            "name": "Placeholders 8",
+            "img": "./src/assets/IMG_8239.jpeg",
+            "price": "€175?"
+        }
+    }
+}

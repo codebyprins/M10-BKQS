@@ -1,3 +1,21 @@
+:root{
+  --background: #EDE8DC;
+  --main: #C1CFA1;
+  --darkmain: #A5B68D;
+  --highlight: #E7CCCC;
+  --fontlight: #eee;
+  --fontdark: #0f0f0f;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: sans-serif;
+  color: var(--fontdark);
+}
+
+body{
+  background: #EDE8DC;
+}
 
 nav {
   gap: 2rem;
@@ -5,7 +23,7 @@ nav {
   justify-content: space-between; 
   align-items: center;
   height: 100px;
-  background-color: #f0f0f0; 
+  background-color: var(--main); 
   padding: 0 20px; 
 }
 

@@ -1,28 +1,15 @@
-import './App.css'
-import { placeholder } from './array.jsx';
-import { getImageUrl } from './utils.jsx';
+import './App.css';
+import FrontPage from './frontpage.jsx';
+import Header from './header.jsx';
 
 
-function Header(){
-    return (
-    <>
-      
-      <nav>
-        <div className='logo-holder'>
-          <img className='logo'
-            /* src={getImageUrl(placeholder)}  */
-            src='/aquiltingsecret.png'
-           />
-        </div>
-        <ul className='list-items'>
-          <li>Shop</li>
-          <li>Contact</li>
-          <li>Info</li>
-        </ul>
-      </nav>
-
-    </>
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <FrontPage />
+    </div>
   );
 }
 
-export default Header
+export default App;

@@ -2,7 +2,7 @@
     "filters": [
         {
             "name": "Alle producten",
-            "class": "filter-listItem filter-active"
+            "class": "filter-listItem"
         },
         {
             "name": "Eenpersoonsbed",
@@ -34,6 +34,7 @@
             "id" : "0",
             "name": "Placeholders 0",
             "img": "./src/assets/IMG_8159.jpeg",
+            "measurments": "77x54",
             "price": "€175?"
         },
         "item1": {
@@ -65,7 +66,8 @@
             "name": "Couvert Garden White",
             "img": "./src/assets/IMG_8245.jpeg",
             "price": "€175?",
-            "measurments": "77x54"
+            "measurments": "77x54",
+            "category": "Kussens"
             
         },
         "item6": {
@@ -73,19 +75,258 @@
             "name": "Summer Breeze",
             "img": "./src/assets/IMG_8217.jpeg",
             "price": "€175?",
-            "measurments": "150x100"
+            "measurments": "150x100",
+            "category": "Kussens"
         },
         "item7": {
             "id" : "7",
             "name": "Placeholders 7",
             "img": "./src/assets/IMG_8234.jpeg",
-            "price": "€175?"
+            "price": "€175?",
+            "category": "Kussens"
         },
         "item8": {
             "id" : "8",
             "name": "Placeholders 8",
             "img": "./src/assets/IMG_8239.jpeg",
-            "price": "€175?"
+            "price": "€175?",
+            "category": "Kussens"
+        },
+        "item9": {
+            "id" : "9",
+            "name": "Placeholders 9",
+            "img": "./src/assets/IMG_8230.jpeg",
+            "price": "€175?",
+            "category": "Kussens"
+        },
+        "item10": {
+            "id" : "10",
+            "name": "Placeholders 10",
+            "img": "./src/assets/IMG_8225.jpeg",
+            "price": "€175?",
+            "category": "Kussens"
+        },
+        "item11": {
+            "id" : "11",
+            "name": "Placeholders 11",
+            "img": "./src/assets/IMG_8251.jpeg",
+            "price": "€175?",
+            "category": "Kinderwagendeken"
+        },
+        "item12": {
+            "id" : "12",
+            "name": "Kashmir Paisley 13",
+            "img": "./src/assets/IMG_8260.jpeg",
+            "price": "€175?",
+            "category": "Kinderwagendeken"
+        },
+        "item13": {
+            "id" : "13",
+            "name": "Kashmir Paisley 14",
+            "img": "./src/assets/IMG_8265.jpeg",
+            "price": "€175?",
+            "measurments": "74x72",
+            "category": "Kinderwagendeken"
+        },
+        "item14": {
+            "id" : "14",
+            "name": "Summer Breeze 15",
+            "img": "./src/assets/IMG_8272.jpeg",
+            "price": "€175?",
+            "measurments": "160x100",
+            "category": "Kinderwagendeken"
+        },
+        "item15": {
+            "id" : "15",
+            "name": "Summer Breeze - donkerblauwe boterbloem",
+            "img": "./src/assets/IMG_8282.jpeg",
+            "price": "€555",
+            "measurments": "150x100",
+            "category": "Ledikantje",
+            "info": [
+                "Achterkant dahlia's blauw, gequilt met gele draad - elk onderdeel is apart gequilt, vandaar de prijs voor de quilt",
+                "ca. 45 uur aan gewerkt.",
+                "Prachtig voor een ledikant of aan het voeteneinde van een eenpersoonsbed",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 150cm x B 100cm, L 59inch x B 39inch"
+            ]
+        },
+        "item16": {
+            "id" : "16",
+            "name": "Summer Breeze - moda - edelwise",
+            "img": "./src/assets/IMG_8290.jpeg",
+            "price": "€555",
+            "measurments": "150cm x 100cm",
+            "category": "Ledikantje",
+            "info":[
+                "Achterkant dahlia's blauw, gequilt met gele draad - elk onderdeel is apart gequilt, vandaar de prijs voor de quilt",
+                "ca. 45 uur aan gewerkt.",
+                "Prachtig voor een ledikant of aan het voeteneinde van een eenpersoonsbed",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 150cm x B 100cm, L 59inch x B 39inch"
+            ]
+        },
+        "item17": {
+            "id" : "17",
+            "name": "Bali batik - oneindige knoop",
+            "img": "./src/assets/IMG_8296.jpeg",
+            "price": "€555",
+            "measurments": "130cm x 100cm",
+            "category": "Ledikantje",
+            "info": [
+                "Donkere turqouise - rood - paars - oranje. Gequilt turquoise draad - vlinder.",
+                "ca. 55 uur aan gewerkt.",
+                "Prachtig voor een ledikant of aan het voeteneinde van een eenpersoonsbed",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 130cm x B 100cm, L 51inch x B 39inch"
+            ]
+        },
+        "item18": {
+            "id" : "18",
+            "name": "Bali batik - oneindige knoop",
+            "img": "./src/assets/IMG_8306.jpeg",
+            "price": "€555",
+            "measurments": "130 cm x 100cm",
+            "category": "Ledikantje",
+            "info": [
+                "Lichte turquoise - lila - paars - oranje, Gequilt turquoise draad - schildpad",
+                "ca. 65 uur aan gewerkt.",
+                "Prachtig voor een ledikant of aan het voeteneinde van een eenpersoonsbed",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 130cm x B 100cm, L 51inch x B 39inch"
+            ]
+        },
+        "item19": {
+            "id" : "19",
+            "name": "Roses on the vine - visgraat - four patch",
+            "img": "./src/assets/IMG_8314.jpeg",
+            "price": "€435",
+            "measurments": "140cm x 100cm",
+            "category": "Ledikantje",
+            "info": [
+                "Gequilt met licht blauwe draad - kerstenbloesem.",
+                "ca. 35 uur aan gewerkt.",
+                "Prachtig voor een ledikant of aan het voeteneinde van een eenpersoonsbed.",
+                "Materiaal: Voorkant en achterkant 100% katoen, Vulling: Toscaanse wol.",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 140cm x B 100cm, L 55inch x B 39inch"
+            ]
+        },
+        "item20": {
+            "id" : "20",
+            "name": "Rosewater 21",
+            "img": "./src/assets/IMG_8322.jpeg",
+            "price": "€175?",
+            "measurments": "246x163",
+            "category": "Kinderwagendeken"
+        },
+        "item21": {
+            "id" : "21",
+            "name": "Christmas quilt 22",
+            "img": "./src/assets/IMG_8332.jpeg",
+            "price": "€175?",
+            "measurments": "200x153",
+            "category": "Kinderwagendeken"
+        },
+        "item22": {
+            "id" : "22",
+            "name": "Julliete 23",
+            "img": "./src/assets/IMG_8347.jpeg",
+            "price": "€175?",
+            "measurments": "223x185",
+            "category": "Kinderwagendeken"
+        },
+        "item23": {
+            "id" : "23",
+            "name": "Bali batik 24",
+            "img": "./src/assets/IMG_8356.jpeg",
+            "price": "€175?",
+            "measurments": "220x163",
+            "category": "Kinderwagendeken"
+        },
+        "item24": {
+            "id" : "24",
+            "name": "Dancing dragonflies 25",
+            "img": "./src/assets/IMG_8365.jpeg",
+            "price": "€795",
+            "measurments": "239cm x 125cm",
+            "category": "Eenpersoonsbed",
+            "info": [
+                "Optisch bewegende quilt. Achterkant ook patchwork - visgraat. Gequilt met licht blauwe draad - dragonflies",
+                "ca. 64 uur aan gewerkt.",
+                "Prachtig voor een eenpersoonsbed of voor aan het voeteneinde van een tweepersoonsbed.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Afmetingen: L 239cm x B 125cm, L 94inch x B 49inch"
+            ]
+        },
+        "item25": {
+            "id" : "25",
+            "name": "Batik",
+            "img": "./src/assets/IMG_8377.jpeg",
+            "price": "€745",
+            "measurments": "210cm x 115cm",
+            "category": "Eenpersoonsbed",
+            "info": [
+                "Whu whites - rood wit blauw. Achterkant - rood/wit/blauw blokjes. Gequilt met rode draad - dragonflies",
+                "ca. 60 uur aan gewerkt.",
+                "Prachtig voor een eenpersoonsbed of voor aan het voeteneinde van een tweepersoonsbed.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 210cm x 115cm, L 83inch x B 45inch"
+            ]
+        },
+        "item26": {
+            "id" : "26",
+            "name": "Summer Breeze 27",
+            "img": "./src/assets/IMG_8387.jpeg",
+            "price": "€175?",
+            "measurments": "260x260",
+            "category": "Kinderwagendeken"
+        },
+        "item27": {
+            "id" : "27",
+            "name": "Summer Breeze 28",
+            "img": "./src/assets/IMG_8398.jpeg",
+            "price": "€175?",
+            "measurments": "260x150",
+            "category": "Kinderwagendeken"
+        },
+        "item28": {
+            "id" : "28",
+            "name": "Summer Breeze 29",
+            "img": "./src/assets/IMG_8413.jpeg",
+            "price": "€175?",
+            "measurments": "260x150",
+            "category": "Kinderwagendeken"
+        },
+        "item29": {
+            "id" : "29",
+            "name": "Poppies 30",
+            "img": "./src/assets/IMG_8423.jpeg",
+            "price": "€175?",
+            "measurments": "260x260",
+            "category": "Kinderwagendeken"
+        },
+        "item30": {
+            "id" : "30",
+            "name": "Roses on the vine 31",
+            "img": "./src/assets/IMG_8433.jpeg",
+            "price": "€175?",
+            "measurments": "245x245",
+            "category": "Kinderwagendeken"
+        },
+        "item31": {
+            "id" : "31",
+            "name": "Poppies pink 32",
+            "img": "./src/assets/IMG_8442.jpeg",
+            "price": "€175?",
+            "measurments": "260x255",
+            "category": "Kinderwagendeken"
         }
+        
     }
 }

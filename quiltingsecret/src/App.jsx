@@ -2,6 +2,7 @@ import './App.css'
 import { placeholder } from './array.jsx';
 import { getImageUrl } from './utils.jsx';
 
+
 function Header(){
     return (
     <>
@@ -9,7 +10,8 @@ function Header(){
       <nav>
         <div className='logo-holder'>
           <img className='logo'
-            src={getImageUrl(placeholder)} 
+            /* src={getImageUrl(placeholder)}  */
+            src='/aquiltingsecret.png'
            />
         </div>
         <ul className='list-items'>

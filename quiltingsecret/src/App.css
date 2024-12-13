@@ -27,17 +27,16 @@ nav {
   padding: 0 20px; 
 }
 
-.logo-holder {
+/* .logo-holder {
   display: flex;
   align-items: center;
   background-color: green; 
   padding: 10px 15px; 
   border-radius: 5px; 
-}
+} */
 
 .logo-holder img {
   width: 5rem;
-
 }
 
 .logo-holder .logo {

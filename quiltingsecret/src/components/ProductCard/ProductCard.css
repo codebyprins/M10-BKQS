@@ -1,0 +1,20 @@
+/* ProductCard.css */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .btn-outline-primary {
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  

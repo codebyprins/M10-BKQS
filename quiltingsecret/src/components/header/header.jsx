@@ -16,7 +16,7 @@ function Header(){
            />
         </div>
         <ul className='list-items'>
-          <li>Shop</li>
+          <li>Winkel</li>
           <li>Contact</li>
           <li>Info</li>
         </ul>

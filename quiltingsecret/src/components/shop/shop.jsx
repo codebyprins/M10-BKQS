@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import '../App.css';
+import '../../App.css';
 import './shop.css';
-import { AddToCart, More } from '../Buttons/Buttons';
+import { AddToCart, More } from '../../Buttons/Buttons';
 
 function Shop() {
     const [filters, setFilters] = useState([]); // State for filters

@@ -1,7 +1,8 @@
 import '../../App.css';
 import './header.css';
-import { placeholder } from '../../array.jsx';
-import { getImageUrl } from '../../utils.jsx';
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Header(){
     return (
@@ -16,9 +17,15 @@ function Header(){
            />
         </div>
         <ul className='list-items'>
-          <li>Winkel</li>
-          <li>Contact</li>
-          <li>Info</li>
+          <li>
+            <Link className='link' to="/">Shop</Link>
+          </li>
+          <li>
+            <Link className='link' to="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link className='link' to="/info">Info</Link>
+          </li>
         </ul>
       </nav>
 

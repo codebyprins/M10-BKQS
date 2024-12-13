@@ -91,58 +91,107 @@
             "img": "./src/assets/IMG_8245.jpeg",
             "price": "€175?",
             "measurments": "77x54",
-            "category": "Kussens"
-            
+            "category": "Kussens",
+            "info": [
+                "Kussen - Couvert Garden, Quilted cushion cover - black, Gequilt met rode draad - kersenbloesem, ca. 9 uur aan gewerkt.",
+                "Voorkant en achterkant 100% katoen. Bating: Toscaanse wol - wasvoorschrift: stomen",
+                "",
+                ""
+            ]
+
+                        
         },
         "item6": {
             "id" : "6",
-            "name": "Summer Breeze",
+            "name": "Couvert Garden Black",
             "img": "./src/assets/IMG_8217.jpeg",
-            "price": "€175?",
-            "measurments": "150x100",
-            "category": "Kussens"
+            "price": "€110",
+            "measurments": "77x54",
+            "category": "Kussens",
+            "info": [
+                "Kussen - Couvert Garden, Quilted cushion cover - black, Gequilt met rode draad - kersenbloesem, ca. 9 uur aan gewerkt.",
+                "Voorkant en achterkant 100% katoen. Bating: Toscaanse wol - wasvoorschrift: stomen",
+                "Afmetingen ca.: Lengte: 77 cm, Breedte: 54 cm Lengte: 30,3 inch, Breedte: 21,3 inch",
+                "Prijs: € 110,-"
+            ]
         },
         "item7": {
             "id" : "7",
             "name": "Placeholders 7",
             "img": "./src/assets/IMG_8234.jpeg",
             "price": "€175?",
-            "category": "Kussens"
+            "category": "Kussens",
+            "info": [
+                "",
+                "",
+                "",
+                ""
+            ]
         },
         "item8": {
             "id" : "8",
             "name": "Placeholders 8",
             "img": "./src/assets/IMG_8239.jpeg",
             "price": "€175?",
-            "category": "Kussens"
+            "category": "Kussens",
+            "info": [
+                "",
+                "",
+                "",
+                ""
+            ]
         },
         "item9": {
             "id" : "9",
             "name": "Placeholders 9",
             "img": "./src/assets/IMG_8230.jpeg",
             "price": "€175?",
-            "category": "Kussens"
+            "category": "Kussens",
+            "info": [
+                "",
+                "",
+                "",
+                ""
+            ]
         },
         "item10": {
             "id" : "10",
             "name": "Placeholders 10",
             "img": "./src/assets/IMG_8225.jpeg",
             "price": "€175?",
-            "category": "Kussens"
+            "category": "Kussens",
+            "info": [
+                "",
+                "",
+                "",
+                ""
+            ]
         },
         "item11": {
             "id" : "11",
             "name": "Placeholders 11",
             "img": "./src/assets/IMG_8251.jpeg",
             "price": "€175?",
-            "category": "Kinderwagendeken"
+            "category": "Kinderwagendeken",
+            "info": [
+                "",
+                "",
+                "",
+                ""
+            ]
         },
         "item12": {
             "id" : "12",
             "name": "Kashmir Paisley 13",
             "img": "./src/assets/IMG_8260.jpeg",
             "price": "€175?",
-            "category": "Kinderwagendeken"
+            "category": "Kinderwagendeken",
+            "info": [
+                "",
+                "",
+                "",
+                ""
+            ]
         },
         "item13": {
             "id" : "13",
@@ -150,7 +199,12 @@
             "img": "./src/assets/IMG_8265.jpeg",
             "price": "€175?",
             "measurments": "74x72",
-            "category": "Kinderwagendeken"
+            "info": [
+                "",
+                "",
+                "",
+                ""
+            ]
         },
         "item14": {
             "id" : "14",
@@ -158,7 +212,13 @@
             "img": "./src/assets/IMG_8272.jpeg",
             "price": "€175?",
             "measurments": "160x100",
-            "category": "Kinderwagendeken"
+            "category": "Kinderwagendeken",
+            "info": [
+                "",
+                "",
+                "",
+                ""
+            ]
         },
         "item15": {
             "id" : "15",
@@ -406,6 +466,5 @@
                 "Afmetingen: L 260cm x B 255cm, L 102inch x B 100inch"
             ]
         }
-        
     }
 }

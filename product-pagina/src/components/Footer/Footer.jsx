@@ -1,9 +1,9 @@
 import React from "react";
-import './Footer.css'; // Vergeet niet de CSS toe te voegen voor extra styling
+
 
 const Footer = () => {
   return (
-    <footer className="footer bg-primary text-white py-4">
+    <footer className="footer text-white py-4">
       <div className="container">
         <div className="row">
           <div className="col-md-4">

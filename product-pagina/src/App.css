@@ -1,5 +1,13 @@
-.carousel-item img {
-  object-fit: cover;
-  height: 400px;
+:root{
+  --background: #EDE8DC;
+  --main: #C1CFA1;
+  --darkmain: #A5B68D;
+  --highlight: #E7CCCC;
+  --fontlight: #eee;
+  --fontdark: #0f0f0f;
 }
 
+
+body{
+  background: var(--background);
+}

@@ -1,28 +1,37 @@
 /* Navbar.css */
+:root{
+  --background: #EDE8DC;
+  --main: #C1CFA1;
+  --darkmain: #A5B68D;
+  --highlight: #E7CCCC;
+  --fontlight: #eee;
+  --fontdark: #0f0f0f;
+}
 
-/* Verander de hover-kleur voor links */
+
+
 .navbar-nav .nav-link:hover {
-    color: #ffc107; /* Geel */
+    color: #ffc107; 
   }
   
-  /* Stijlen voor de actieve link */
+
   .navbar-nav .nav-link.active {
     font-weight: bold;
-    border-bottom: 2px solid #ffc107; /* Geel onderstreep */
+    border-bottom: 2px solid #ffc107; 
   }
   
-  /* Logo grotere tekst */
+
   .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
   }
   
-  /* Pas de achtergrondkleur aan bij mobiel */
+  
   .navbar {
     transition: background-color 0.3s ease-in-out;
   }
   
   .navbar-dark.bg-primary {
-    background-color: #0056b3 !important; /* Donkerblauw */
+    background-color: var(--main) !important; 
   }
   

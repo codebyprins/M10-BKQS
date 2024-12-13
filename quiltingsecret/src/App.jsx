@@ -1,15 +1,16 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import FrontPage from './frontpage.jsx';
 import Header from './components/header/header.jsx';
-import Herosection from './components/herosection/herosection.jsx';
-
+import Home from './Pages/home/home.jsx';
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Header />
-      <Herosection />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 

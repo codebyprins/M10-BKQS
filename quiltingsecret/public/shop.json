@@ -242,11 +242,19 @@
         },
         "item23": {
             "id" : "23",
-            "name": "Bali batik 24",
+            "name": "Bali batik - olive blue",
             "img": "./src/assets/IMG_8356.jpeg",
-            "price": "€175?",
-            "measurments": "220x163",
-            "category": "Kinderwagendeken"
+            "price": "€1185",
+            "measurments": "220cm x 163cm",
+            "category": "Twijfelaar",
+            "info": [
+                "Gequilt met licht blauwe draad - ginkgo - patroon: hourglass - zandloper. Schittteren kleurenspel. Achterkant schaduw van varen",
+                "ca. 95 uur aan gewerkt.",
+                "Prachtig voor een twijfelaar of voor aan het voeteneinde van een tweepersoonsbed.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 220cm x 163cm, L 87inch x B 64inch"
+            ]
         },
         "item24": {
             "id" : "24",
@@ -281,19 +289,35 @@
         },
         "item26": {
             "id" : "26",
-            "name": "Summer Breeze 27",
+            "name": "Summer Breeze - Dahlia donker blauw",
             "img": "./src/assets/IMG_8387.jpeg",
-            "price": "€175?",
-            "measurments": "260x260",
-            "category": "Kinderwagendeken"
+            "price": "€2250",
+            "measurments": "250cm x 245cm",
+            "category": "Tweepersoonsbed",
+            "info": [
+                "Voorkant kleine bloementuin - achterkant dahlia's donker blauw. Gequilt met gele draad - elk onderdeel is apart gequilt, vandaar de prijs voor de quilt",
+                "ca. 180 uur aan gewerkt.",
+                "Adembenemende tweepersoonsquilt.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 250cm x B 245cm, L 98inch x B 96inch"
+            ]
         },
         "item27": {
             "id" : "27",
-            "name": "Summer Breeze 28",
+            "name": "Summer Breeze - Dahlia geel",
             "img": "./src/assets/IMG_8398.jpeg",
-            "price": "€175?",
-            "measurments": "260x150",
-            "category": "Kinderwagendeken"
+            "price": "€2500",
+            "measurments": "262cm x 260cm",
+            "category": "Tweepersoonsbed",
+            "info": [
+                "Voorkant kleine bloementuin - achterkant dahlia's geel. Gequilt met gele draad - elk onderdeel is apart gequilt, vandaar de prijs voor de quilt",
+                "ca. 200 uur aan gewerkt.",
+                "Prachtige tweepersoonsquilt.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 262cm x B 260cm, L 102inch x B 102inch"
+            ]
         },
         "item28": {
             "id" : "28",
@@ -305,27 +329,50 @@
         },
         "item29": {
             "id" : "29",
-            "name": "Poppies 30",
+            "name": "Poppies - zwarte kaders",
             "img": "./src/assets/IMG_8423.jpeg",
-            "price": "€175?",
-            "measurments": "260x260",
-            "category": "Kinderwagendeken"
+            "price": "€1375",
+            "measurments": "260cm x 260cm",
+            "category": "Tweepersoonsbed",
+            "info": [
+                "Vrolijke quilt met klaprozen - blauwe rand, Achterkant zwart met madeliefjes",
+                "ca. 110 uur aan gewerkt.",
+                "Prachtige tweepersoonsquilt.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 260cm x B 260cm, L 102inch x B 102inch"
+            ]
         },
         "item30": {
             "id" : "30",
-            "name": "Roses on the vine 31",
+            "name": "Roses on the vine - visgraat",
             "img": "./src/assets/IMG_8433.jpeg",
-            "price": "€175?",
-            "measurments": "245x245",
-            "category": "Kinderwagendeken"
+            "price": "€1295",
+            "measurments": "245cm x 245cm",
+            "category": "Tweepersoonsbed",
+            "info": [
+                "Gequilt met licht blauwe draad - kersenbloesem",
+                "ca. 105 uur aan gewerkt",
+                "Prachtige tweepersoonsquilt.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 245cm x B 245cm, L 100inch x B 100inch"
+            ]
         },
         "item31": {
             "id" : "31",
-            "name": "Poppies pink 32",
+            "name": "Poppies - roze kaders",
             "img": "./src/assets/IMG_8442.jpeg",
-            "price": "€175?",
-            "measurments": "260x255",
-            "category": "Kinderwagendeken"
+            "price": "€1375",
+            "measurments": "260cm x 255cm",
+            "category": "Tweepersoonsbed",
+            "info": [
+                "Zonnige quilt  - achterkant geel met klaprozen.",
+                "ca. 110 uur aan gewerkt.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 260cm x B 255cm, L 102inch x B 100inch"
+            ]
         }
         
     }

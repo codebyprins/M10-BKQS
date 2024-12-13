@@ -1,6 +1,7 @@
-import './App.css'
-import { placeholder } from './array.jsx';
-import { getImageUrl } from './utils.jsx';
+import '../../App.css';
+import './header.css';
+import { placeholder } from '../../array.jsx';
+import { getImageUrl } from '../../utils.jsx';
 
 function Header(){
     return (
@@ -10,7 +11,7 @@ function Header(){
         <div className='logo-holder'>
           <img 
             className='logo'
-            src={getImageUrl(placeholder[0])} 
+            src='/aquiltingsecret.png'
             alt="Logo"
            />
         </div>

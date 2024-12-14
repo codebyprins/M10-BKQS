@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../../App.css';
 import './shop.css';
-import { AddToCart, More } from '../../Buttons/Buttons';
+import { AddToCart } from '../../Buttons/Buttons';
+import { Link } from 'react-router-dom'; // Ensure Link is imported
 
 function Shop() {
     const [filters, setFilters] = useState([]); // State for filters
@@ -79,7 +80,10 @@ function Shop() {
                                             : ""}
                                     </p>
                                     <div className="buttons">
-                                        <More />
+                                        {/* Make the "More" button a clickable link */}
+                                        <Link to={`/productpagina/${product.id}`} className="more-button" title="Go to product page">
+                                            Meer
+                                        </Link>
                                         <AddToCart />
                                     </div>
                                 </div>

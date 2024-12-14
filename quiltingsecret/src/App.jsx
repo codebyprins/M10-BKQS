@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/header/header.jsx';
 import Home from './Pages/home/home.jsx';
+import Productpagina from './Pages/productpagina/product-pagina.jsx';
 
 function App() {
   return (
@@ -9,8 +10,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/productpagina/:id" element={<Productpagina />} />
       </Routes>
-    </Router>
+    </Router>   
   );
 }
 

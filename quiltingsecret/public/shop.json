@@ -30,7 +30,7 @@
         }
     ],
     "products": {
-        "item0": {
+        "0": {
             "id" : "0",
             "name": "Placeholders 0",
             "img": "./src/assets/IMG_8159.jpeg",
@@ -175,11 +175,11 @@
             "img": "./src/assets/IMG_8265.jpeg",
             "price": "€175?",
             "measurments": "74x72",
-,            "info": [
-                "",
-                "",
-                "",
-                ""
+             "info": [
+                "a",
+                "b",
+                "c",
+                "d"
             ]
         },
         "item14": {

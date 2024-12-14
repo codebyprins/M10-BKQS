@@ -10,8 +10,3 @@ export function AddToCart() {
   )
 }
 
-export function More() {
-  return (
-    <a href='/productpage{i}' className='more-button' title='Naar infopagina'>Meer</a>
-  )
-}

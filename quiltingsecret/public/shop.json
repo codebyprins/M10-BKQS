@@ -30,20 +30,20 @@
         }
     ],
     "products": {
-        "item0": {
+        "0": {
             "id" : "0",
             "name": "Placeholders 0",
             "img": "./src/assets/IMG_8159.jpeg",
             "measurments": "77x54",
             "price": "€175?"
         },
-        "item1": {
+        "1": {
             "id" : "1",
             "name": "Placeholders 1",
             "img": "./src/assets/IMG_8170.jpeg",
             "price": "€175?"
         },
-        "item2": {
+        "2": {
             "id" : "2",
             "name": "Placeholders 2",
             "img": "./src/assets/IMG_8181.jpeg",
@@ -53,7 +53,7 @@
                 ""
             ]
         },
-        "item3": {
+        "3": {
             "id" : "3",
             "name": "Vlinders uit Wassenaar",
             "img": "./src/assets/IMG_8195.jpeg",
@@ -69,7 +69,7 @@
                 "Afmetingen: L 234cm x B 171cm, L 92inch x B 67inch"
             ]
         },
-        "item4": {
+        "4": {
             "id" : "4",
             "name": "Covert Garden",
             "img": "./src/assets/IMG_8205.jpeg",
@@ -85,7 +85,7 @@
                 "Afmetingen: L 285cm x B 160cm, L 112inch x B 163inch"
             ]
         },
-        "item5": {
+        "5": {
             "id" : "5",
             "name": "Couvert Garden White",
             "img": "./src/assets/IMG_8245.jpeg",
@@ -101,7 +101,7 @@
 
                         
         },
-        "item6": {
+        "6": {
             "id" : "6",
             "name": "Couvert Garden Black",
             "img": "./src/assets/IMG_8217.jpeg",
@@ -115,7 +115,7 @@
                 "Prijs: € 110,-"
             ]
         },
-        "item7": {
+        "7": {
             "id" : "7",
             "name": "Placeholders 7",
             "img": "./src/assets/IMG_8234.jpeg",
@@ -128,7 +128,7 @@
                 ""
             ]
         },
-        "item8": {
+        "8": {
             "id" : "8",
             "name": "Placeholders 8",
             "img": "./src/assets/IMG_8239.jpeg",
@@ -141,7 +141,7 @@
                 ""
             ]
         },
-        "item9": {
+        "9": {
             "id" : "9",
             "name": "Placeholders 9",
             "img": "./src/assets/IMG_8230.jpeg",
@@ -154,7 +154,7 @@
                 ""
             ]
         },
-        "item10": {
+        "10": {
             "id" : "10",
             "name": "Placeholders 10",
             "img": "./src/assets/IMG_8225.jpeg",
@@ -167,7 +167,7 @@
                 ""
             ]
         },
-        "item11": {
+        "11": {
             "id" : "11",
             "name": "Placeholders 11",
             "img": "./src/assets/IMG_8251.jpeg",
@@ -180,7 +180,7 @@
                 ""
             ]
         },
-        "item12": {
+        "12": {
             "id" : "12",
             "name": "Kashmir Paisley 13",
             "img": "./src/assets/IMG_8260.jpeg",
@@ -193,7 +193,7 @@
                 ""
             ]
         },
-        "item13": {
+        "13": {
             "id" : "13",
             "name": "Kashmir Paisley 14",
             "img": "./src/assets/IMG_8265.jpeg",
@@ -206,7 +206,7 @@
                 ""
             ]
         },
-        "item14": {
+        "14": {
             "id" : "14",
             "name": "Summer Breeze 15",
             "img": "./src/assets/IMG_8272.jpeg",
@@ -220,7 +220,7 @@
                 ""
             ]
         },
-        "item15": {
+        "15": {
             "id" : "15",
             "name": "Summer Breeze - donkerblauwe boterbloem",
             "img": "./src/assets/IMG_8282.jpeg",
@@ -236,7 +236,7 @@
                 "Afmetingen: L 150cm x B 100cm, L 59inch x B 39inch"
             ]
         },
-        "item16": {
+        "16": {
             "id" : "16",
             "name": "Summer Breeze - moda - edelwise",
             "img": "./src/assets/IMG_8290.jpeg",
@@ -252,7 +252,7 @@
                 "Afmetingen: L 150cm x B 100cm, L 59inch x B 39inch"
             ]
         },
-        "item17": {
+        "17": {
             "id" : "17",
             "name": "Bali batik - oneindige knoop",
             "img": "./src/assets/IMG_8296.jpeg",
@@ -268,7 +268,7 @@
                 "Afmetingen: L 130cm x B 100cm, L 51inch x B 39inch"
             ]
         },
-        "item18": {
+        "18": {
             "id" : "18",
             "name": "Bali batik - oneindige knoop",
             "img": "./src/assets/IMG_8306.jpeg",
@@ -284,7 +284,7 @@
                 "Afmetingen: L 130cm x B 100cm, L 51inch x B 39inch"
             ]
         },
-        "item19": {
+        "19": {
             "id" : "19",
             "name": "Roses on the vine - visgraat - four patch",
             "img": "./src/assets/IMG_8314.jpeg",
@@ -300,7 +300,7 @@
                 "Afmetingen: L 140cm x B 100cm, L 55inch x B 39inch"
             ]
         },
-        "item20": {
+        "20": {
             "id" : "20",
             "name": "Rosewater 21",
             "img": "./src/assets/IMG_8322.jpeg",
@@ -308,7 +308,7 @@
             "measurments": "246x163",
             "category": "Kinderwagendeken"
         },
-        "item21": {
+        "21": {
             "id" : "21",
             "name": "Christmas quilt 22",
             "img": "./src/assets/IMG_8332.jpeg",
@@ -316,7 +316,7 @@
             "measurments": "200x153",
             "category": "Kinderwagendeken"
         },
-        "item22": {
+        "22": {
             "id" : "22",
             "name": "Julliete",
             "img": "./src/assets/IMG_8347.jpeg",
@@ -332,7 +332,7 @@
                 "Afmetingen: L 223cm x 185cm, L 88inch x B 72inch"
             ]
         },
-        "item23": {
+        "23": {
             "id" : "23",
             "name": "Bali batik - olive blue",
             "img": "./src/assets/IMG_8356.jpeg",
@@ -348,7 +348,7 @@
                 "Afmetingen: L 220cm x 163cm, L 87inch x B 64inch"
             ]
         },
-        "item24": {
+        "24": {
             "id" : "24",
             "name": "Dancing dragonflies 25",
             "img": "./src/assets/IMG_8365.jpeg",
@@ -363,7 +363,7 @@
                 "Afmetingen: L 239cm x B 125cm, L 94inch x B 49inch"
             ]
         },
-        "item25": {
+        "25": {
             "id" : "25",
             "name": "Batik",
             "img": "./src/assets/IMG_8377.jpeg",
@@ -379,7 +379,7 @@
                 "Afmetingen: L 210cm x 115cm, L 83inch x B 45inch"
             ]
         },
-        "item26": {
+        "26": {
             "id" : "26",
             "name": "Summer Breeze - Dahlia donker blauw",
             "img": "./src/assets/IMG_8387.jpeg",
@@ -395,7 +395,7 @@
                 "Afmetingen: L 250cm x B 245cm, L 98inch x B 96inch"
             ]
         },
-        "item27": {
+        "27": {
             "id" : "27",
             "name": "Summer Breeze - Dahlia geel",
             "img": "./src/assets/IMG_8398.jpeg",
@@ -411,7 +411,7 @@
                 "Afmetingen: L 262cm x B 260cm, L 102inch x B 102inch"
             ]
         },
-        "item28": {
+        "28": {
             "id" : "28",
             "name": "Summer Breeze 29",
             "img": "./src/assets/IMG_8413.jpeg",
@@ -419,7 +419,7 @@
             "measurments": "260x150",
             "category": "Kinderwagendeken"
         },
-        "item29": {
+        "29": {
             "id" : "29",
             "name": "Poppies - zwarte kaders",
             "img": "./src/assets/IMG_8423.jpeg",
@@ -435,7 +435,7 @@
                 "Afmetingen: L 260cm x B 260cm, L 102inch x B 102inch"
             ]
         },
-        "item30": {
+        "30": {
             "id" : "30",
             "name": "Roses on the vine - visgraat",
             "img": "./src/assets/IMG_8433.jpeg",
@@ -451,7 +451,7 @@
                 "Afmetingen: L 245cm x B 245cm, L 100inch x B 100inch"
             ]
         },
-        "item31": {
+        "31": {
             "id" : "31",
             "name": "Poppies - roze kaders",
             "img": "./src/assets/IMG_8442.jpeg",

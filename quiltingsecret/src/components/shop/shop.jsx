@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../../App.css';
 import './shop.css';
 
-function Shop() {
+export default function Shop({ addToCart }) { // Accept addToCart as a prop
     const [filters, setFilters] = useState([]);
     const [products, setProducts] = useState([]);
     const [activeFilter, setActiveFilter] = useState("Alle producten");
@@ -12,7 +12,6 @@ function Shop() {
         fetch("/shop.json")
             .then((res) => res.json())
             .then((data) => {
-
                 const extractedFilters = Object.values(data.filters);
                 setFilters(extractedFilters);
 
@@ -23,14 +22,12 @@ function Shop() {
             .catch((error) => console.error("Error fetching the data:", error));
     }, []);
 
-
     const handleFilterClick = (filterName) => {
         setActiveFilter(filterName);
 
         if (filterName === "Alle producten") {
             setFilteredProducts(products);
         } else {
-
             const filtered = products.filter((product) => product.category === filterName);
             setFilteredProducts(filtered);
         }
@@ -38,7 +35,6 @@ function Shop() {
 
     return (
         <div className="shop-container">
-
             <section className="filter-container">
                 <h2 className="filter-h2">Filters:</h2>
                 <ul className="filter-list">
@@ -54,7 +50,6 @@ function Shop() {
                     ))}
                 </ul>
             </section>
-
 
             <section className="products-container">
                 <h2 className="products-h2">Producten</h2>
@@ -80,7 +75,11 @@ function Shop() {
                                         </p>
                                     </section>
                                     <div className="buttons">
-                                        <button id='addToCart' title='Toevoegen aan winkelwagen' className='addToCart'>
+                                        <button
+                                            id='addToCart'
+                                            title='Toevoegen aan winkelwagen'
+                                            className='addToCart'
+                                            onClick={() => addToCart(product)}>
                                             +
                                         </button>
                                     </div>
@@ -95,5 +94,3 @@ function Shop() {
         </div>
     );
 }
-
-export default Shop;

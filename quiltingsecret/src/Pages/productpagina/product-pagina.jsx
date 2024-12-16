@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom'; // To access the `id` from the URL
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import "./product-pagina.css";
 
 function ProductPage() {
-  const { id } = useParams(); // Get the product `id` from the URL
+  const { id } = useParams();
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    // Fetch the product data
     fetch("/shop.json")
       .then((res) => res.json())
       .then((data) => {
-        const product = data.products[id]; // Get the product with the matching id
+        const product = data.products[id];
         if (product) {
           setProduct(product);
         } else {
@@ -18,20 +18,32 @@ function ProductPage() {
         }
       })
       .catch((error) => console.error("Error fetching the data:", error));
-  }, [id]); // Re-run the effect when the `id` changes
+  }, [id]);
 
   if (!product) {
-    return <div>Loading...</div>; // Display a loading state while fetching data
+    return <div className="loading">Loading...</div>;
   }
 
   return (
-    <div className="product-page-container">
-      <h2>{product.name}</h2>
-      <img src={product.img} alt={product.name} />
-      <p>{product.price}</p>
-      <p>{product.measurments}</p>
-      
-      <button>Add to Cart</button> {/* Add an "Add to Cart" button */}
+    <div className="product-page">
+      {/* Image Section */}
+      <div className="image-section">
+        <img src={product.img} alt={product.name} className="product-image" />
+      </div>
+
+      {/* Product Details Section */}
+      <div className="details-section">
+        <div className="text-container">
+          <h1 className="product-title">{product.name}</h1>
+          <p className="product-description">
+            {product.description || "No description available."}
+          </p>
+        </div>
+        <div className="purchase-container">
+          <p className="product-price">{product.price}</p>
+          <button className="add-to-cart-button">Add to Cart</button>
+        </div>
+      </div>
     </div>
   );
 }

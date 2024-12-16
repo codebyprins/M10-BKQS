@@ -35,12 +35,28 @@ function ProductPage() {
       <div className="details-section">
         <div className="text-container">
           <h1 className="product-title">{product.name}</h1>
-          <p className="product-description">
-            {product.description || "No description available."}
+          <p className="product-category">
+            <strong>Category:</strong> {product.category}
+          </p>
+          <p className="product-measurements">
+            <strong>Measurements:</strong> {product.measurments}
+          </p>
+          <p className="product-price">
+            <strong>Price:</strong> {product.price}
           </p>
         </div>
+
+        {/* Product Information Section */}
+        <div className="product-info-section">
+          <h3 className="product-info-title">Product Information</h3>
+          <ul className="product-info">
+            {product.info.map((item, index) => (
+              <li key={index} className="product-info-item">{item}</li>
+            ))}
+          </ul>
+        </div>
+
         <div className="purchase-container">
-          <p className="product-price">{product.price}</p>
           <button className="add-to-cart-button">Add to Cart</button>
         </div>
       </div>

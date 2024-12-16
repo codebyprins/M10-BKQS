@@ -37,7 +37,7 @@
             "measurments": "77x54",
             "price": "€175?"
         },
-        "item1": {
+        "1": {
             "id" : "1",
             "name": "Placeholders 1",
             "img": "./src/assets/IMG_8170.jpeg",
@@ -69,7 +69,7 @@
                 "Afmetingen: L 234cm x B 171cm, L 92inch x B 67inch"
             ]
         },
-        "item4": {
+        "4": {
             "id" : "4",
             "name": "Covert Garden",
             "img": "./src/assets/IMG_8205.jpeg",

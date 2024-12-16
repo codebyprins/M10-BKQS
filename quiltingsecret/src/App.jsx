@@ -4,6 +4,7 @@ import Header from './components/header/header.jsx';
 import Footer from './components/Footer/footer.jsx';
 import Shoppingcart from './components/shoppingcart/shoppingcart.jsx';
 import Home from './Pages/home/home.jsx';
+import Productpagina from './Pages/productpagina/product-pagina.jsx';
 
 import { useState } from 'react';
 import Checkout from './Pages/checkout/checkout.jsx';
@@ -37,7 +38,6 @@ function App() {
   return (
     <Router>
       <Header />
-      {/* Pass the cartItems and removeFromCart function as props */}
       <Shoppingcart cartItems={cartItems} removeFromCart={removeFromCart} />
       <Routes>
         <Route
@@ -50,9 +50,10 @@ function App() {
           }
         />
         <Route path="/checkout" element={<Checkout />}/>
+        <Route path="/productpagina/:id" element={<Productpagina />} />
       </Routes>
       <Footer />
-    </Router>
+    </Router>   
   );
 }
 

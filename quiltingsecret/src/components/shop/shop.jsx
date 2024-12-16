@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../../App.css';
 import './shop.css';
+import { AddToCart } from '../../Buttons/Buttons';
+import { Link } from 'react-router-dom'; // Ensure Link is imported
 
 export default function Shop({ addToCart }) { // Accept addToCart as a prop
     const [filters, setFilters] = useState([]);
@@ -82,6 +84,9 @@ export default function Shop({ addToCart }) { // Accept addToCart as a prop
                                             onClick={() => addToCart(product)}>
                                             +
                                         </button>
+                                        <Link to={`/productpagina/${product.id}`} className="more-button" title="Go to product page">
+                                            Meer
+                                        </Link>
                                     </div>
                                 </div>
                             </li>

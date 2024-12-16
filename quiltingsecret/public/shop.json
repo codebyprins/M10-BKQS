@@ -47,19 +47,43 @@
             "id" : "2",
             "name": "Placeholders 2",
             "img": "./src/assets/IMG_8181.jpeg",
-            "price": "€175?"
+            "price": "€175?",
+            "measurments": "234cm x 171cm",
+            "info": [
+                ""
+            ]
         },
         "item3": {
             "id" : "3",
-            "name": "Placeholders 3",
+            "name": "Vlinders uit Wassenaar",
             "img": "./src/assets/IMG_8195.jpeg",
-            "price": "€175?"
+            "price": "€875",
+            "measurments": "234cm x 171cm",
+            "category": "Twijfelaar",
+            "info": [
+                "Batik rood/geel/blauw. Gequilt met gele draad - vlinders",
+                "ca. 70 uur aan gewerkt.",
+                "Prachtig voor een twijfelaar of voor aan het voeteneinde van een tweepersoonsbed.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 234cm x B 171cm, L 92inch x B 67inch"
+            ]
         },
         "item4": {
             "id" : "4",
-            "name": "Placeholders 4",
+            "name": "Covert Garden",
             "img": "./src/assets/IMG_8205.jpeg",
-            "price": "€175?"
+            "price": "€995",
+            "measurments": "285cm x 160cm",
+            "category": "Twijfelaar",
+            "info": [
+                "Prachtige en frisse quilt - four strips diamonds. Gequilt met licht blauwe draad - kersenbloesem",
+                "ca. 80 uur aan gewerkt.",
+                "Prachtig voor een twijfelaar of voor aan het voeteneinde van een tweepersoonsbed.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 285cm x B 160cm, L 112inch x B 163inch"
+            ]
         },
         "item5": {
             "id" : "5",
@@ -175,11 +199,11 @@
             "img": "./src/assets/IMG_8265.jpeg",
             "price": "€175?",
             "measurments": "74x72",
-             "info": [
-                "a",
-                "b",
-                "c",
-                "d"
+            "info": [
+                "",
+                "",
+                "",
+                ""
             ]
         },
         "item14": {
@@ -294,11 +318,19 @@
         },
         "item22": {
             "id" : "22",
-            "name": "Julliete 23",
+            "name": "Julliete",
             "img": "./src/assets/IMG_8347.jpeg",
-            "price": "€175?",
-            "measurments": "223x185",
-            "category": "Kinderwagendeken"
+            "price": "€935",
+            "measurments": "223cm x 185cm",
+            "category": "Twijfelaar",
+            "info": [
+                "Blauw met lichtblauw gespikkelde rand. Juliette achterkant. Gequilt met gele draad - rozen",
+                "ca. 75 uur aan gewerkt.",
+                "Prachtig voor een twijfelaar of voor aan het voeteneinde van een tweepersoonsbed.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 223cm x 185cm, L 88inch x B 72inch"
+            ]
         },
         "item23": {
             "id" : "23",

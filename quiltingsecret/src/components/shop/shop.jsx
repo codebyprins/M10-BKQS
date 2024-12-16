@@ -5,34 +5,34 @@ import { AddToCart } from '../../Buttons/Buttons';
 import { Link } from 'react-router-dom'; // Ensure Link is imported
 
 function Shop() {
-    const [filters, setFilters] = useState([]); // State for filters
-    const [products, setProducts] = useState([]); // State for products
-    const [activeFilter, setActiveFilter] = useState("Alle producten"); // State for the active filter
-    const [filteredProducts, setFilteredProducts] = useState([]); // State for filtered products
+    const [filters, setFilters] = useState([]);
+    const [products, setProducts] = useState([]);
+    const [activeFilter, setActiveFilter] = useState("Alle producten");
+    const [filteredProducts, setFilteredProducts] = useState([]);
 
     useEffect(() => {
         fetch("/shop.json")
             .then((res) => res.json())
             .then((data) => {
-                // Extract filters and products
+
                 const extractedFilters = Object.values(data.filters);
                 setFilters(extractedFilters);
 
                 const extractedProducts = Object.values(data.products);
                 setProducts(extractedProducts);
-                setFilteredProducts(extractedProducts); // Default to showing all products
+                setFilteredProducts(extractedProducts);
             })
             .catch((error) => console.error("Error fetching the data:", error));
     }, []);
 
-    // Handle filter change
+
     const handleFilterClick = (filterName) => {
         setActiveFilter(filterName);
 
         if (filterName === "Alle producten") {
-            setFilteredProducts(products); // Show all products
+            setFilteredProducts(products);
         } else {
-            // Filter products based on the `category` field
+
             const filtered = products.filter((product) => product.category === filterName);
             setFilteredProducts(filtered);
         }
@@ -40,9 +40,9 @@ function Shop() {
 
     return (
         <div className="shop-container">
-            {/* Filters Section */}
+
             <section className="filter-container">
-                <h2 className="filter-h2">Filter items:</h2>
+                <h2 className="filter-h2">Filters:</h2>
                 <ul className="filter-list">
                     {filters.map((filter, index) => (
                         <li
@@ -57,7 +57,7 @@ function Shop() {
                 </ul>
             </section>
 
-            {/* Products Section */}
+
             <section className="products-container">
                 <h2 className="products-h2">Producten</h2>
                 <ul className="products-list">
@@ -70,15 +70,17 @@ function Shop() {
                                     className="product-img"
                                 />
                                 <div className="product-info">
-                                    <h3 className="product-name">{product.name}</h3>
-                                    <p className='product-category'>{product.category}</p>
-                                    <p className="product-price">{product.price}</p>
-                                    <p className='product-size'>{product.measurments}</p>
-                                    <p className="product-material">
-                                        {Array.isArray(product.info) && product.info[3]
-                                            ? product.info[3]
-                                            : ""}
-                                    </p>
+                                    <section className='product-text'>
+                                        <h3 className="product-name">{product.name}</h3>
+                                        <p className='product-category'>{product.category}</p>
+                                        <p className="product-price">{product.price}</p>
+                                        <p className='product-size'>{product.measurments}</p>
+                                        <p className="product-material">
+                                            {Array.isArray(product.info) && product.info[3]
+                                                ? product.info[3]
+                                                : ""}
+                                        </p>
+                                    </section>
                                     <div className="buttons">
                                         {/* Make the "More" button a clickable link */}
                                         <Link to={`/productpagina/${product.id}`} className="more-button" title="Go to product page">

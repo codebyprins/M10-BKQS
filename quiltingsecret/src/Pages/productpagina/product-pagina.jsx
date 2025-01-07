@@ -40,7 +40,7 @@ function ProductPage() {
           </p>
         </div>
         <div className="purchase-container">
-          <p className="product-price">{product.price}</p>
+          <p className="productpage-price">{product.price}</p>
           <button className="add-to-cart-button">Add to Cart</button>
         </div>
       </div>

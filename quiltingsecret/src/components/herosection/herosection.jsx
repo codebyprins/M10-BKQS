@@ -5,7 +5,7 @@ function Herosection() {
     return (
         <div className="overlay">
             <div className="card">
-                <h1>Welcome to A Quilting Secret!</h1>
+                <h1>A Quilting Secret!</h1>
             </div>
         </div>
     )

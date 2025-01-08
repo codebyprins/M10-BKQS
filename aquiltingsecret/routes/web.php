@@ -13,6 +13,14 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/productpage', function(){
+    return Inertia::render('Productpage', [
+        'canLogin' => Route::has('login'),
+        'laravelVersion' => Application::VERSION,
+        'phpVersion' => PHP_VERSION,
+    ]);
+});
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

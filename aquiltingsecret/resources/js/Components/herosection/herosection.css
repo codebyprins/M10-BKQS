@@ -1,0 +1,22 @@
+.overlay {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/IMG_8433.jpeg");
+    background-size: contain;
+}
+
+/* Style the card */
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;    padding: 6rem 5rem;
+    border-radius: 10px;
+}
+
+.card h1 {
+    font-size: 3rem;
+}

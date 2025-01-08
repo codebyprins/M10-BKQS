@@ -56,7 +56,7 @@
 
 .filter-active{
     font-weight: 600;
-    border-bottom: 0.3rem solid var(--highlight);
+    border-bottom: 0.3rem solid var(--main);
 }
 
 .products-list{

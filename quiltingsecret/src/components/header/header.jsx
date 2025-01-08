@@ -18,7 +18,7 @@ function Header(){
         </div>
         <ul className='list-items'>
           <li>
-            <Link className='link' to="/shop">Shop</Link>
+            <Link className='link' to="/">Shop</Link>
           </li>
           <li>
             <Link className='link' to="/contact">Contact</Link>

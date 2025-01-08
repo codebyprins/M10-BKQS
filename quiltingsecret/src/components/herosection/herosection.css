@@ -4,15 +4,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("./assets/IMG_8433.jpeg");
+    background-image: url("../../assets/IMG_8433.jpeg");
     background-size: contain;
 }
 
 /* Style the card */
 .card {
     background: rgba(255, 255, 255, 0.8);
-    /* Semi-transparent background */
-    padding: 6rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    padding: 6rem 5rem;
     border-radius: 10px;
 }
 

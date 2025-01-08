@@ -15,6 +15,10 @@ function FrontPage() {
                 <div className="card">
                     <h1>Welcome to A Quilting Secret!</h1>
                 </div>
+                {/* <div className="button-container">
+                    <button onClick={() => window.location.href='/shop'}>Shop</button>
+                    <button onClick={() => window.location.href='/contact'}>Contact</button>
+                </div> */}
             </div>
         </div>
     );

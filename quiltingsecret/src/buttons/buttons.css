@@ -1,0 +1,9 @@
+.more-button{
+    color: #eee;
+    font-size: 2rem;
+}
+
+.more-button:hover{
+    font-size: 2.5rem;
+
+}

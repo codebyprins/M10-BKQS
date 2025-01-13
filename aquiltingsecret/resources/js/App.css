@@ -1,0 +1,19 @@
+:root{
+  --background: #e3ecf0;
+  --main: #337CCF;
+  --darkmain: #1450A3;
+  --highlight: #FFC436;
+  --darklight: #dda41d;
+  --fontlight: #eee;
+  --fontdark: #0f0f0f;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: sans-serif;
+  color: var(--fontdark);
+}
+
+body{
+  background: var(--background);
+}

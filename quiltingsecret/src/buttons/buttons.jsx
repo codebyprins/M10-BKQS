@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css'
-// import './buttons.css';
+import './buttons.css';
 
 export function AddToCart() {
   return (

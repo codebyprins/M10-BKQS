@@ -4,6 +4,8 @@ import NavLink from '@/Components/NavLink';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
 import { Link, usePage } from '@inertiajs/react';
 import { useState } from 'react';
+import './authenticatedlayout.css';
+import '../App.css';
 
 export default function AuthenticatedLayout({ header, children }) {
     const user = usePage().props.auth.user;
@@ -12,24 +14,26 @@ export default function AuthenticatedLayout({ header, children }) {
         useState(false);
 
     return (
-        <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
-            <nav className="border-b border-gray-100 bg-white dark:border-gray-700 dark:bg-gray-800">
-                <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <div className="flex h-16 justify-between">
-                        <div className="flex">
-                            <div className="flex shrink-0 items-center">
-                                <Link href="/">
-                                    <ApplicationLogo className="block h-9 w-auto fill-current text-gray-800 dark:text-gray-200" />
-                                </Link>
-                            </div>
-
-                            <div className="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+        <div className="authenticatedlayout">
+            <nav className="admin-nav">
+                <div className="admin-navcontainer">
+                            <div className='logo-holder'>
+                                <img
+                                    className='admin-logo'
+                                    src='/images/aquiltingsecret.png'
+                                    alt="Logo"
+                                />
                                 <NavLink
                                     href={route('dashboard')}
                                     active={route().current('dashboard')}
+                                    className='admin-title'
                                 >
-                                    Dashboard
+                                    Dutch Quilts Admin
                                 </NavLink>
+                            </div>
+
+                            <div className="">
+                                
                             </div>
                         </div>
 
@@ -40,7 +44,7 @@ export default function AuthenticatedLayout({ header, children }) {
                                         <span className="inline-flex rounded-md">
                                             <button
                                                 type="button"
-                                                className="inline-flex items-center rounded-md border border-transparent bg-white px-3 py-2 text-sm font-medium leading-4 text-gray-500 transition duration-150 ease-in-out hover:text-gray-700 focus:outline-none dark:bg-gray-800 dark:text-gray-400 dark:hover:text-gray-300"
+                                                className="inline-flex items-center rounded-md border border-transparent bg-white px-3 py-2 text-sm font-medium leading-4 text-gray-500 transition duration-150 ease-in-out hover:text-gray-700 focus:outline-none dark:bg-cyan-00 dark:text-gray-400 dark:hover:text-gray-300"
                                             >
                                                 {user.name}
 
@@ -118,8 +122,7 @@ export default function AuthenticatedLayout({ header, children }) {
                                 </svg>
                             </button>
                         </div>
-                    </div>
-                </div>
+                    
 
                 <div
                     className={
@@ -161,14 +164,6 @@ export default function AuthenticatedLayout({ header, children }) {
                     </div>
                 </div>
             </nav>
-
-            {header && (
-                <header className="bg-white shadow dark:bg-gray-800">
-                    <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-                        {header}
-                    </div>
-                </header>
-            )}
 
             <main>{children}</main>
         </div>

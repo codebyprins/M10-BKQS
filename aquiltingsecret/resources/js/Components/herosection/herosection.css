@@ -5,18 +5,23 @@
     justify-content: center;
     align-items: center;
     background-image: url("/images/IMG_8433.jpeg");
-    background-size: contain;
+    background-size: cover;
 }
 
 /* Style the card */
-.card {
-    background: rgba(255, 255, 255, 0.8);
+.card-herosection {
+    min-width: 20%;
+    height: 40%;
+    background: var(--main);
     display: flex;
     justify-content: center;
-    align-items: center;    padding: 6rem 5rem;
+    align-items: center;    
+    padding: 4rem;
     border-radius: 10px;
 }
 
-.card h1 {
+.card-herosection h1 {
     font-size: 3rem;
+    font-weight: 600;
+     color: var(--fontlight)
 }

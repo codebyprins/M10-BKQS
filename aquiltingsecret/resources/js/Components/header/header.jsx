@@ -1,7 +1,7 @@
 import '../../App.css';
 import './header.css';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '@inertiajs/react';
 
 
 function Header(){
@@ -12,9 +12,10 @@ function Header(){
         <div className='logo-holder'>
           <img 
             className='logo'
-            src='/aquiltingsecret.png'
+            src='/images/aquiltingsecret.png'
             alt="Logo"
            />
+           <h1 className='h1-title'>A Quilting Secret</h1>
         </div>
         <ul className='list-items'>
           <li>

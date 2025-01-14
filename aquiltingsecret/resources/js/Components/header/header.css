@@ -1,4 +1,5 @@
 nav {
+  width: 100%;
     gap: 2rem;
     display: flex;
     justify-content: space-between; 
@@ -8,13 +9,25 @@ nav {
     padding: 0 20px; 
 }
 
+.logo-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 .logo-holder img {
     width: 5rem;
   }
   
   .logo-holder .logo {
-    font-size: 24px;
+    font-size: 2.5rem;
     color: white;
+  }
+
+  .h1-title{
+    font-size: 2.5rem;
+    color: var(--fontlight);
   }
   
   .list-items {
@@ -28,15 +41,16 @@ nav {
     margin-right: 5rem;
   }
   
-
-
   .link {
     text-decoration: none;
-    color: black; 
+    color: var(--fontlight); 
     cursor: pointer;
     font-size: 1.5rem;
+    border-bottom: 0.3rem solid transparent;
+    font-size: 2rem;
   }
 
   .link:hover {
-    color: darkgray;
+    color: var(--highlight2);
+    border-bottom: 0.3rem solid var(--highlight2);
   }

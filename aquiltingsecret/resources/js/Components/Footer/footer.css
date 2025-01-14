@@ -1,37 +1,140 @@
-
 footer {
-    gap: 2rem;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    height: 350px;
-    background-color: var(--main); 
-    padding: 0 20px; 
-}
-
-.footer-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Space between boxes */
+    background-color: var(--main); /* Dark background */
+    color: #000000;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+  }
+  
+  .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.footer-box {
-    background-color: #eee;
-    padding: 15px;
-    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap; /* Ensure responsive wrapping */
+    gap: 20px; /* Space between cards */
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: var(--mainlight); /* Slightly lighter background for cards */
     border-radius: 8px;
-    height: 200px;
-    width: 200px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.footer-box h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-.footer-box p {
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    flex: 1; /* Allow cards to grow equally */
+    min-width: 250px; /* Minimum width for responsiveness */
+    max-width: 300px; /* Limit maximum width */
+    flex-direction: column;
+  }
+  
+  .card h5 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #000000; /* Slightly lighter text for headings */
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
-}
+  }
+  
+  .card ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .card ul li a {
+    font-size: 1.8rem;
+    color: #000000; /* Lighter link color */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .card ul li a:hover {
+    color: var(--highlight2); /* Highlight color on hover */
+  }
+  
+  .card p {
+    margin: 10px 0;
+  }
+  
+  .Contact-form {
+    margin-top: 1.5rem;
+  }
+  
+  .Contact-form div {
+    margin-bottom: 1.5rem;
+  }
+  
+  .Contact-form label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .Contact-form input[type="text"],
+  .Contact-form input[type="email"],
+  .Contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    background-color: white;
+    transition: border-color 0.3s;
+  }
+  
+  .Contact-form input:focus,
+  .Contact-form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .Contact-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .Contact-form button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: var(--highlight2);
+    color: #000000;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Contact-form button:hover {
+    background-color: var(--highlight);
+  }
+
+  .footer-container{
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem
+  }
+
+  .footer-copyright, .footer-divide, .footer-link{
+    border-bottom: 0.1rem solid transparent;
+  }
+
+  .footer-link:hover{
+    color: var(--highlight2);
+    border-bottom: 0.1 solid var(--highlight)
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+    }
+  }
+  

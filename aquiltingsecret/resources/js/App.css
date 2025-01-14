@@ -1,9 +1,17 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root{
-  --background: #e3ecf0;
-  --main: #337CCF;
-  --darkmain: #1450A3;
-  --highlight: #FFC436;
-  --darklight: #dda41d;
+  --background: #FFFDEC;
+  --main: #6A80B9;
+  --mainlight:#758dc9;
+  --darkmain: #155E95;
+  --highlight: #be7191;
+  --darklight: #a35c7a;
+  --highlight2: #aabd8c;
   --fontlight: #eee;
   --fontdark: #0f0f0f;
 }
@@ -16,4 +24,11 @@ html{
 
 body{
   background: var(--background);
+  width: 100vw;
+}
+
+.admin-logo{
+  width: 5rem; 
+  height: 5rem;
+  object-fit: contain;
 }

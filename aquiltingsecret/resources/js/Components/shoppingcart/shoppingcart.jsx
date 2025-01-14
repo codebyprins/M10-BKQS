@@ -48,7 +48,7 @@ function Shoppingcart({ cartItems, removeFromCart }) {
                                 <li>No items in the cart.</li>
                             )}
                         </ul>
-                        {}
+                        <Link to='/checkout' cartitems={cartItems} className='checkout-button'>Betalen</Link>
                     </div>
                 </div>
             )}

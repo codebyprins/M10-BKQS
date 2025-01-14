@@ -12,4 +12,7 @@ function Home({ addToCart, removeFromCart }) {
   )
 }
 
+import DefaultLayout from '@/Layouts/DefaultLayout';
+Home.layout = (page) => <DefaultLayout>{page}</DefaultLayout>;
+
 export default Home

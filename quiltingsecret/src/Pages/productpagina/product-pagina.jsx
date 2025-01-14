@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./product-pagina.css";
+import ImageSlider from '../../components/Imgslider/ImageSlider'; 
 
-function ProductPage() {
+function ProductPage({ addToCart }) {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
 
@@ -24,41 +25,47 @@ function ProductPage() {
     return <div className="loading">Loading...</div>;
   }
 
+ 
+  const productImages = product.img || [placeholderImage]; 
+
   return (
     <div className="product-page">
-      {/* Image Section */}
       <div className="image-section">
-        <img src={product.img} alt={product.name} className="product-image" />
+        <ImageSlider images={productImages} />
       </div>
 
-      {/* Product Details Section */}
       <div className="details-section">
         <div className="text-container">
           <h1 className="product-title">{product.name}</h1>
-          <p className="product-category">
-            <strong>Category:</strong> {product.category}
-          </p>
-          <p className="product-measurements">
-            <strong>Measurements:</strong> {product.measurments}
-          </p>
-          <p className="product-price">
-            <strong>Price:</strong> {product.price}
-          </p>
         </div>
 
-        {/* Product Information Section */}
         <div className="product-info-section">
           <h3 className="product-info-title">Product Information</h3>
-          <ul className="product-info">
-            {product.info.map((item, index) => (
+          <ul className="product-info1">
+            <li className="product-info-item">
+              <strong>Category:</strong> {product.category}
+            </li>
+            <li className="product-info-item">
+              <strong>Measurements:</strong> {product.measurments}
+            </li>
+            <li className="product-info-item">
+              <strong>Price:</strong> {product.price}
+            </li>
+            {product.info && product.info.map((item, index) => (
               <li key={index} className="product-info-item">{item}</li>
             ))}
           </ul>
         </div>
 
         <div className="purchase-container">
-          <p className="product-price">{product.price}</p>
-          <button className="add-to-cart-button">Add to Cart</button>
+          <button
+            id='addToCart'
+            title='Toevoegen aan winkelwagen'
+            className='addToCart'
+            onClick={() => addToCart(product)}
+          >
+            +
+          </button>
         </div>
       </div>
     </div>

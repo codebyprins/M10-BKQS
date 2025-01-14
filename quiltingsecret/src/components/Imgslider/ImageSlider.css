@@ -1,6 +1,43 @@
-.carousel-item img {
-    object-fit: cover;
-    height: 500px;
-    width: 700px;
-  }
-  
+.image-slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px; 
+  margin: auto;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item {
+  max-width: 100%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}

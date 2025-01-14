@@ -50,7 +50,7 @@ function App() {
           }
         />
         <Route path="/checkout" element={<Checkout />}/>
-        <Route path="/productpagina/:id" element={<Productpagina />} />
+        <Route path="/productpagina/:id" element={<Productpagina addToCart={addToCart} />} />
       </Routes>
       <Footer />
     </Router>   

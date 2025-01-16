@@ -66,6 +66,7 @@
 }
 
 .product{
+    background: lightgray;
     width: 25rem;
     height: 40rem;
     position: relative;

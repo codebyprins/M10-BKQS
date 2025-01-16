@@ -1,9 +1,11 @@
-import React, {  useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from '@inertiajs/react';
 import './shoppingcart.css';
+import '../../App.css';
 
 function Shoppingcart({ cartItems, removeFromCart }) {
     const [checkCartOpen, setCheckCartOpen] = useState(false);
+    const [isChecked, setIsChecked] = useState(false); // State for the checkbox
 
     const getTotalItems = () => {
         return cartItems.reduce((total, item) => total + item.quantity, 0);
@@ -13,18 +15,22 @@ function Shoppingcart({ cartItems, removeFromCart }) {
         setCheckCartOpen((prev) => !prev);
     };
 
+    const handleCheckboxChange = (e) => {
+        setIsChecked(e.target.checked); // Update checkbox state
+    };
+
     return (
         <div className="shoppingcart-container">
             <button
                 onClick={openShoppingcart}
                 className={`cart-button ${checkCartOpen ? 'button-moved' : ''}`}
             >
-                 {getTotalItems() > 0 ? getTotalItems() : '🛒'}
+                {getTotalItems() > 0 ? getTotalItems() : '🛒'}
             </button>
             {checkCartOpen && (
                 <div className="shoppingcart-modal" onClick={openShoppingcart}>
                     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-                        <h2 className='cart-h2'>Shopping Cart</h2>
+                        <h2 className='cart-h2'>Winkelwagen</h2>
                         <ul className='cart-list'>
                             {cartItems.length > 0 ? (
                                 cartItems.map((item) => (
@@ -42,13 +48,35 @@ function Shoppingcart({ cartItems, removeFromCart }) {
                                             X
                                         </button>
                                     </li>
-    
                                 ))
                             ) : (
-                                <li>No items in the cart.</li>
+                                <li>Geen items in de winkelwagen</li>
                             )}
                         </ul>
-                        <Link to='/checkout' cartitems={cartItems} className='checkout-button'>Betalen</Link>
+                        <form>
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    id="voorwaardes"
+                                    name="voorwaardes"
+                                    value="Ik accepteer de algemen en privacy voorwaardes"
+                                    onChange={handleCheckboxChange} // Update state on change
+                                />
+                                Ik accepteer de algemene voorwaarden
+                            </label>
+                        </form>
+                        <Link
+                            to={isChecked ? '/checkout' : '#'}
+                            className={`checkout-preAccept ${isChecked ? 'checkout-button' : 'disabled-link'}`} // Apply a disabled style
+                            onClick={(e) => {
+                                if (!isChecked) {
+                                    e.preventDefault(); // Prevent navigation if checkbox is not checked
+                                    alert('Please accept the terms and conditions to proceed.');
+                                }
+                            }}
+                        >
+                            Betalen
+                        </Link>
                     </div>
                 </div>
             )}

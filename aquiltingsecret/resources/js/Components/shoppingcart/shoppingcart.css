@@ -32,6 +32,7 @@
     z-index: 2;
     border: 0.3rem solid var(--darklight);
     z-index: 3;
+    color: var(--fontlight);
   }
 
   .button-moved{
@@ -49,6 +50,7 @@
     z-index: 2;
     border: 0.3rem solid var(--darklight);
     z-index: 3;
+    color: var(--fontlight);
 }
 
 .cart-h2{
@@ -100,6 +102,7 @@
     border: none;
     background: lightcoral;
     font-weight: 700;
+    color: var(--fontlight);
 }
 
 .remove-button:hover{
@@ -121,4 +124,21 @@
 
 .checkout-button:hover{
     background: var(--darklight);
+}
+.checkout-preAccept{
+    width: max-content;
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    border: 0.2rem solid lightgrey;
+}
+
+.checkout-preAccept:visited{
+    color: lightgrey;
+}
+
+.checkout-preAccept:hover{
+    background: lightgrey;
+    color: var(--fontdark);
 }

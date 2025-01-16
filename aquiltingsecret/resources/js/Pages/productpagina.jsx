@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import PropTypes from "prop-types";
+import { useParams } from "react-router-dom"; // Ensure correct library for useParams
 import "./product-pagina.css";
-import ImageSlider from '../../components/Imgslider/ImageSlider'; 
+import ImageSlider from "@/Components/Imgslider/ImageSlider"; 
+
+const placeholderImage = "/path/to/placeholder.jpg"; // Replace with your actual placeholder path
 
 function ProductPage({ addToCart }) {
   const { id } = useParams();
@@ -9,11 +12,13 @@ function ProductPage({ addToCart }) {
 
   useEffect(() => {
     fetch("/shop.json")
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) throw new Error(`Failed to fetch: ${res.status}`);
+        return res.json();
+      })
       .then((data) => {
-        const product = data.products[id];
-        if (product) {
-          setProduct(product);
+        if (data.products && data.products[id]) {
+          setProduct(data.products[id]);
         } else {
           console.error("Product not found");
         }
@@ -25,7 +30,6 @@ function ProductPage({ addToCart }) {
     return <div className="loading">Loading...</div>;
   }
 
- 
   const productImages = product.img || [placeholderImage]; 
 
   return (
@@ -46,7 +50,7 @@ function ProductPage({ addToCart }) {
               <strong>Category:</strong> {product.category}
             </li>
             <li className="product-info-item">
-              <strong>Measurements:</strong> {product.measurments}
+              <strong>Measurements:</strong> {product.measurements}
             </li>
             <li className="product-info-item">
               <strong>Price:</strong> {product.price}
@@ -59,9 +63,9 @@ function ProductPage({ addToCart }) {
 
         <div className="purchase-container">
           <button
-            id='addToCart'
-            title='Toevoegen aan winkelwagen'
-            className='addToCart'
+            id="addToCart"
+            title="Toevoegen aan winkelwagen"
+            className="addToCart"
             onClick={() => addToCart(product)}
           >
             +
@@ -71,5 +75,9 @@ function ProductPage({ addToCart }) {
     </div>
   );
 }
+
+ProductPage.propTypes = {
+  addToCart: PropTypes.func.isRequired,
+};
 
 export default ProductPage;

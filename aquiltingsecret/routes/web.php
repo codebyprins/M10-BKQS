@@ -31,6 +31,13 @@ Route::get('/productpagina', function(){
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
     ]);
+})->name('productpagina');
+
+Route::get('/checkout', function(){
+    return Inertia::render('checkout', [
+        'laravelVersion' => Application::VERSION,
+        'phpVersion' => PHP_VERSION,
+    ]);
 });
 
 Route::get('/contact', function () {

@@ -83,7 +83,7 @@ export default function Shop({ addToCart }) { // Accept addToCart as a prop
                                             onClick={() => addToCart(product)}>
                                             +
                                         </button>
-                                        <Link to={`/productpage`} className="more-button" title="Go to product page">
+                                        <Link href={route('productpagina')} className="more-button" title="Go to product page">
                                             Meer
                                         </Link>
                                     </div>

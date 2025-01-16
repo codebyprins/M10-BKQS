@@ -5,6 +5,7 @@ import Footer from './components/Footer/footer.jsx';
 import Shoppingcart from './components/shoppingcart/shoppingcart.jsx';
 import Home from './Pages/home/home.jsx';
 import Productpagina from './Pages/productpagina/product-pagina.jsx';
+import Info from './Pages/info/info.jsx';
 
 import { useState } from 'react';
 import Checkout from './Pages/checkout/checkout.jsx';
@@ -51,6 +52,7 @@ function App() {
         />
         <Route path="/checkout" element={<Checkout />}/>
         <Route path="/productpagina/:id" element={<Productpagina addToCart={addToCart} />} />
+        <Route path="/info" element={<Info />} />
       </Routes>
       <Footer />
     </Router>   

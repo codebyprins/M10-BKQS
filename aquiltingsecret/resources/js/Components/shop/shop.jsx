@@ -5,8 +5,8 @@ import { Link } from '@inertiajs/react';
 
 export default function Shop({ addToCart }) { // Accept addToCart as a prop
     const [filters, setFilters] = useState([]);
-    const [products, setProducts] = useState([]);
     const [activeFilter, setActiveFilter] = useState("Alle producten");
+    const [products, setProducts] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
 
     useEffect(() => {

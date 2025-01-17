@@ -66,7 +66,8 @@ function Shoppingcart({ cartItems, removeFromCart }) {
                             </label>
                         </form>
                         <Link
-                            to={isChecked ? '/checkout' : '#'}
+                            href={isChecked ? `/checkout?cartItemIds=${cartItemIds.join(',')}` : '#'}
+                            data={{ cartItemIds: cartItems.map((item) => item.id) }}
                             className={`checkout-preAccept ${isChecked ? 'checkout-button' : 'disabled-link'}`} // Apply a disabled style
                             onClick={(e) => {
                                 if (!isChecked) {

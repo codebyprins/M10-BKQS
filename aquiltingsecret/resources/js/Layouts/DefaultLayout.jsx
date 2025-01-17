@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
+import { usePage } from '@inertiajs/react'; // Import usePage to access the current route
 import Header from '../Components/header/header';
 import Footer from '../Components/Footer/footer';
 import Shoppingcart from '@/Components/shoppingcart/shoppingcart';
 
 const DefaultLayout = ({ children }) => {
+  const { url } = usePage(); // Get the current route URL
+
+
   // State to manage the cart items
   const [cartItems, setCartItems] = useState([]);
 
@@ -32,8 +36,9 @@ const DefaultLayout = ({ children }) => {
   return (
     <div>
       <Header />
-      <Shoppingcart cartItems={cartItems} removeFromCart={removeFromCart} />
-      <main>{React.cloneElement(children, { addToCart })}</main>
+      {/* Render the Shoppingcart component only if the URL is '/' */}
+      {url === '/' && <Shoppingcart cartItems={cartItems} removeFromCart={removeFromCart} />}
+      <main>{React.cloneElement(children, { addToCart, cartItems })}</main>  {/* Pass cartItems to children */}
       <Footer />
     </div>
   );

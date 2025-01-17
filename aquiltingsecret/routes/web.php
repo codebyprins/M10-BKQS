@@ -33,12 +33,14 @@ Route::get('/productpagina', function(){
     ]);
 })->name('productpagina');
 
-Route::get('/checkout', function(){
-    return Inertia::render('checkout', [
+Route::get('/checkout', function () {
+    $cart = session()->get('cart', []); // Example: Fetch cart data from session
+    return Inertia::render('Checkout', [
+        'cartItems' => $cart,
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
     ]);
-});
+})->name('checkout');
 
 Route::get('/contact', function () {
     return Inertia::render('Contact');

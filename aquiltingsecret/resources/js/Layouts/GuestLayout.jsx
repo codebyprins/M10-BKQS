@@ -1,5 +1,3 @@
-import ApplicationLogo from '@/Components/ApplicationLogo';
-import { Link } from '@inertiajs/react';
 import './guestlayout.css';
 
 import Header from '../Components/header/header';

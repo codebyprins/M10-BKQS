@@ -17,7 +17,7 @@
             "class": "filter-listItem"
         },
         {
-            "name": "Ledikantje",
+            "name": "ledikant",
             "class": "filter-listItem"
         },
         {
@@ -30,27 +30,36 @@
         }
     ],
     "products": {
-        "0": {
-            "id" : "0",
-            "name": "Placeholders 0",
-            "img": "/productimages/IMG_8159.jpeg",
-            "measurments": "77x54",
-            "price": "€175?"
-        },
         "1": {
             "id" : "1",
-            "name": "Placeholders 1",
+            "name": "Kasmir Paisley",
             "img": "/productimages/IMG_8170.jpeg",
-            "price": "€175?"
+            "price": "€735",
+            "measurments": "228cm x 131cm",
+            "category": "Eenpersoonsbed",
+            "info": [
+                "Kashmir Paisley - floating nine patch - met blauwe batik. Gequilt met een gele draad - paisley",
+                "ca. 59 uur aan gewerkt.",
+                "Prachtig voor een eenpersoonsbed of voor aan het voeteneinde van een tweepersoonsbed.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 228cm x B 131cm, L 90inch x B 52inch"
+            ]
         },
         "2": {
             "id" : "2",
-            "name": "Placeholders 2",
+            "name": "Batik",
             "img": "/productimages/IMG_8181.jpeg",
-            "price": "€175?",
-            "measurments": "234cm x 171cm",
+            "price": "€745",
+            "measurments": "192cm x 128cm",
+            "category": "Eenpersoonsbed",
             "info": [
-                ""
+                "Frisse rood - wit - blauw - floating nine patch",
+                "ca. 60 uur aan gewerkt.",
+                "Prachtig voor een eenpersoonsbed of voor aan het voeteneinde van een tweepersoonsbed.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 192cm x B 128cm, L 76inch x B 50inch"
             ]
         },
         "3": {
@@ -89,17 +98,17 @@
             "id" : "5",
             "name": "Couvert Garden White",
             "img": "/productimages/IMG_8245.jpeg",
-            "price": "€175?",
+            "price": "€110",
             "measurments": "77x54",
             "category": "Kussens",
             "info": [
-                "Kussen - Couvert Garden, Quilted cushion cover - black, Gequilt met rode draad - kersenbloesem, ca. 9 uur aan gewerkt.",
-                "Voorkant en achterkant 100% katoen. Bating: Toscaanse wol - wasvoorschrift: stomen",
+                "Quilt cushion cover - black. Gequilt met rood draad - kerstbloesem.",
+                "ca. 9 uur aan gewerkt.",
                 "",
-                ""
-            ]
-
-                        
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 77cm x B 54cm, L 30.3inch x B 21.3inch"
+            ]  
         },
         "6": {
             "id" : "6",
@@ -109,115 +118,137 @@
             "measurments": "77x54",
             "category": "Kussens",
             "info": [
-                "Kussen - Couvert Garden, Quilted cushion cover - black, Gequilt met rode draad - kersenbloesem, ca. 9 uur aan gewerkt.",
-                "Voorkant en achterkant 100% katoen. Bating: Toscaanse wol - wasvoorschrift: stomen",
-                "Afmetingen ca.: Lengte: 77 cm, Breedte: 54 cm Lengte: 30,3 inch, Breedte: 21,3 inch",
-                "Prijs: € 110,-"
+                "Quilt cushion cover - black. Gequilt met rood draad - kerstbloesem.",
+                "ca. 9 uur aan gewerkt.",
+                "",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 77cm x B 54cm, L 30.3inch x B 21.3inch"
             ]
         },
         "7": {
             "id" : "7",
-            "name": "Placeholders 7",
+            "name": "Julliete",
             "img": "/productimages/IMG_8234.jpeg",
-            "price": "€175?",
+            "price": "€95",
+            "measurments": "48x47",
             "category": "Kussens",
             "info": [
+                "Quilted cushion cover - blue. Gequilt met gele draad - rozen.",
+                "ca. 8 uur aan gewerkt.",
                 "",
-                "",
-                "",
-                ""
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 48cm x B 47cm, L 18.9inch x B 18.5inch"
             ]
         },
         "8": {
             "id" : "8",
-            "name": "Placeholders 8",
+            "name": "Julliete",
             "img": "/productimages/IMG_8239.jpeg",
-            "price": "€175?",
+            "price": "€95",
+            "measurments": "66x47",
             "category": "Kussens",
             "info": [
+                "Quilted cushion cover - blue. Gequilt met gele draad - rozen.",
+                "ca. 8 uur aan gewerkt.",
                 "",
-                "",
-                "",
-                ""
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 66cm x B 47cm, L 26inch x B 18.5inch"
             ]
         },
         "9": {
             "id" : "9",
-            "name": "Placeholders 9",
+            "name": "Julliete",
             "img": "/productimages/IMG_8230.jpeg",
-            "price": "€175?",
+            "price": "€65",
+            "measurments": "66x47",
             "category": "Kussens",
             "info": [
+                "Quilted cushion cover - blue. Gequilt met gele draad - rozen.",
+                "ca. 8 uur aan gewerkt.",
                 "",
-                "",
-                "",
-                ""
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 66cm x B 47cm, L 26inch x B 18.5inch"
             ]
         },
         "10": {
             "id" : "10",
-            "name": "Placeholders 10",
+            "name": "Julliete",
             "img": "/productimages/IMG_8225.jpeg",
-            "price": "€175?",
+            "price": "€65",
+            "measurments": "85x48",
             "category": "Kussens",
             "info": [
+                "Quilted cushion cover - green. Gequilt met gele draad - rozen.",
+                "ca. 8 uur aan gewerkt.",
                 "",
-                "",
-                "",
-                ""
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 85cm x B 48cm, L 33.5inch x B 18.9inch"
             ]
         },
         "11": {
             "id" : "11",
-            "name": "Placeholders 11",
-            "img": "/productimages/IMG_8251.jpeg",
-            "price": "€175?",
+            "name": "Kashmir Paisley",
+            "img": "/productimages/IMG_8260.jpeg",
+            "price": "€175",
+            "measurments": "77cm x 76cm",
             "category": "Kinderwagendeken",
             "info": [
-                "",
-                "",
-                "",
-                ""
+                "Gequilt met gele daad - paisley",
+                "Prachtige quilt voor in een kinderwagen of gewoon een stukje 'schoon' op de vloer voor je baby. ",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 77cm x B 76cm, L 30inch x B 30inch"
             ]
         },
         "12": {
             "id" : "12",
-            "name": "Kashmir Paisley 13",
+            "name": "Kashmir Paisley met blauwe batik",
             "img": "/productimages/IMG_8260.jpeg",
-            "price": "€175?",
+            "price": "€175",
+            "measurments": "77cm x 76cm",
             "category": "Kinderwagendeken",
             "info": [
-                "",
-                "",
-                "",
-                ""
+                "Gequilt met gele daad - paisley",
+                "Prachtige quilt voor in een kinderwagen of gewoon een stukje 'schoon' op de vloer voor je baby. ",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 77cm x B 76cm, L 30.3inch x B 29.9inch"
             ]
         },
         "13": {
             "id" : "13",
-            "name": "Kashmir Paisley 14",
+            "name": "Kashmir Paisley met blauwe batik",
             "img": "/productimages/IMG_8265.jpeg",
-            "price": "€175?",
-            "measurments": "74x72",
+            "price": "€175",
+            "measurments": "74cm x 72cm",
+            "category": "Kinderwagendeken",
             "info": [
-                "",
-                "",
-                "",
-                ""
+                "Blauw - geel - turquoise - rood. Gequilt met gele daad - paisley",
+                "Prachtige quilt voor in een kinderwagen of gewoon een stukje 'schoon' op de vloer voor je baby. ",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 74cm x B 72cm, L 29inch x B 28inch"
             ]
         },
         "14": {
             "id" : "14",
-            "name": "Summer Breeze 15",
+            "name": "Summer Breeze",
             "img": "/productimages/IMG_8272.jpeg",
-            "price": "€175?",
+            "price": "€305",
             "measurments": "160x100",
-            "category": "Kinderwagendeken",
+            "category": "Ledikant",
             "info": [
-                "",
-                "",
-                "",
-                ""
+                "Kleine bloementuin en aan de achterkant boterbloemen op kobalt blauw. Gequilt met gele draad - elk onderdeel is apart gequilt, vandaar de prijs voor quilten ",
+                "ca. 45 uur aan gewerkt.",
+                "Prachtig voor een ledikant of aan het voeteneinde van een eenpersoonsbed",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 150cm x B 100cm, L 59inch x B 39inch"
             ]
         },
         "15": {
@@ -226,7 +257,7 @@
             "img": "/productimages/IMG_8282.jpeg",
             "price": "€555",
             "measurments": "150x100",
-            "category": "Ledikantje",
+            "category": "ledikant",
             "info": [
                 "Achterkant dahlia's blauw, gequilt met gele draad - elk onderdeel is apart gequilt, vandaar de prijs voor de quilt",
                 "ca. 45 uur aan gewerkt.",
@@ -242,7 +273,7 @@
             "img": "/productimages/IMG_8290.jpeg",
             "price": "€555",
             "measurments": "150cm x 100cm",
-            "category": "Ledikantje",
+            "category": "ledikant",
             "info":[
                 "Achterkant dahlia's blauw, gequilt met gele draad - elk onderdeel is apart gequilt, vandaar de prijs voor de quilt",
                 "ca. 45 uur aan gewerkt.",
@@ -258,7 +289,7 @@
             "img": "/productimages/IMG_8296.jpeg",
             "price": "€555",
             "measurments": "130cm x 100cm",
-            "category": "Ledikantje",
+            "category": "ledikant",
             "info": [
                 "Donkere turqouise - rood - paars - oranje. Gequilt turquoise draad - vlinder.",
                 "ca. 55 uur aan gewerkt.",
@@ -274,7 +305,7 @@
             "img": "/productimages/IMG_8306.jpeg",
             "price": "€555",
             "measurments": "130 cm x 100cm",
-            "category": "Ledikantje",
+            "category": "Ledikant",
             "info": [
                 "Lichte turquoise - lila - paars - oranje, Gequilt turquoise draad - schildpad",
                 "ca. 65 uur aan gewerkt.",
@@ -290,7 +321,7 @@
             "img": "/productimages/IMG_8314.jpeg",
             "price": "€435",
             "measurments": "140cm x 100cm",
-            "category": "Ledikantje",
+            "category": "ledikant",
             "info": [
                 "Gequilt met licht blauwe draad - kerstenbloesem.",
                 "ca. 35 uur aan gewerkt.",
@@ -302,19 +333,35 @@
         },
         "20": {
             "id" : "20",
-            "name": "Rosewater 21",
+            "name": "Rosewater",
             "img": "/productimages/IMG_8322.jpeg",
-            "price": "€175?",
+            "price": "€650",
             "measurments": "246x163",
-            "category": "Kinderwagendeken"
+            "category": "Twijfelaar",
+            "info": [
+                "Hourglasses Dalia’s, madeliefjes en wijnbladeren Roze - bruin - batik bruin. Gequilt met lichtroze draad - dahlia's / pioenrozen",
+                "ca. 65 uur aan gewerkt.",
+                "Prachtig voor een twijfelaar of voor aan het voeteneinde van een tweepersoonsbed.",
+                "Materiaal: Voorkant en achterkant 100% katoen, Vulling: Toscaanse wol.",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 246cm x B 163cm, L 104inch x B 64inch"
+            ]
         },
         "21": {
             "id" : "21",
-            "name": "Christmas quilt 22",
+            "name": "Kerst Quilt",
             "img": "/productimages/IMG_8332.jpeg",
-            "price": "€175?",
+            "price": "€625",
             "measurments": "200x153",
-            "category": "Kinderwagendeken"
+            "category": "Eenpersoonsbed",
+            "info": [
+                "Beige met wit genopte achterkant. Gequilt met rode draad - kerstlokken en hulst",
+                "ca. 60 uur aan gewerkt.",
+                "Prachtig voor een eenpersoonsbed of voor aan het voeteneinde van een tweepersoonsbed.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 200cm x 153cm, L 79inch x B 60inch"
+            ]
         },
         "22": {
             "id" : "22",
@@ -350,7 +397,7 @@
         },
         "24": {
             "id" : "24",
-            "name": "Dancing dragonflies 25",
+            "name": "Dancing with the Dragonflies",
             "img": "/productimages/IMG_8365.jpeg",
             "price": "€795",
             "measurments": "239cm x 125cm",
@@ -413,11 +460,19 @@
         },
         "28": {
             "id" : "28",
-            "name": "Summer Breeze 29",
+            "name": "Summer Breeze - Witte edelweiss",
             "img": "/productimages/IMG_8413.jpeg",
-            "price": "€175?",
+            "price": "€1495",
             "measurments": "260x150",
-            "category": "Kinderwagendeken"
+            "category": "Eenpersoonsbed",
+            "info": [
+                "Voorkant kleine bloementuin - achterkant witte edelweiss. Gequilt met gele draad - elk onderdeel is apart gequilt, vandaar de prijs voor de quilt",
+                "ca. 120 uur aan gewerkt.",
+                "Prachtig voor een eenpersoonsbed of voor aan het voeteneinde van een tweepersoonsbed.",
+                "Materiaal: voorkant en achterkant 100% katoen, vulling Toscaanse wol",
+                "Wasvoorschrift: stomen",
+                "Afmetingen: L 260cm x B 150cm, L 102inch x B 59inch"
+            ]
         },
         "29": {
             "id" : "29",

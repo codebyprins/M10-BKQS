@@ -5,7 +5,7 @@ import '../../App.css';
 
 function Shoppingcart({ cartItems, removeFromCart }) {
     const [checkCartOpen, setCheckCartOpen] = useState(false);
-    const [isChecked, setIsChecked] = useState(false); // State for the checkbox
+    const [isChecked, setIsChecked] = useState(false);
 
     const getTotalItems = () => {
         return cartItems.reduce((total, item) => total + item.quantity, 0);
@@ -16,8 +16,10 @@ function Shoppingcart({ cartItems, removeFromCart }) {
     };
 
     const handleCheckboxChange = (e) => {
-        setIsChecked(e.target.checked); // Update checkbox state
+        setIsChecked(e.target.checked);
     };
+
+    const cartItemIds = cartItems.map((item) => item.id);
 
     return (
         <div className="shoppingcart-container">
@@ -60,18 +62,18 @@ function Shoppingcart({ cartItems, removeFromCart }) {
                                     id="voorwaardes"
                                     name="voorwaardes"
                                     value="Ik accepteer de algemen en privacy voorwaardes"
-                                    onChange={handleCheckboxChange} // Update state on change
+                                    onChange={handleCheckboxChange}
                                 />
                                 Ik accepteer de algemene voorwaarden
                             </label>
                         </form>
                         <Link
                             href={isChecked ? `/checkout?cartItemIds=${cartItemIds.join(',')}` : '#'}
-                            data={{ cartItemIds: cartItems.map((item) => item.id) }}
-                            className={`checkout-preAccept ${isChecked ? 'checkout-button' : 'disabled-link'}`} // Apply a disabled style
+                            data={{ cartItemIds }}
+                            className={`checkout-preAccept ${isChecked ? 'checkout-button' : 'disabled-link'}`}
                             onClick={(e) => {
                                 if (!isChecked) {
-                                    e.preventDefault(); // Prevent navigation if checkbox is not checked
+                                    e.preventDefault();
                                     alert('Please accept the terms and conditions to proceed.');
                                 }
                             }}
@@ -86,3 +88,4 @@ function Shoppingcart({ cartItems, removeFromCart }) {
 }
 
 export default Shoppingcart;
+

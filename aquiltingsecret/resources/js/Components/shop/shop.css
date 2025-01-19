@@ -53,12 +53,12 @@
 .filter-listItem:hover{
     cursor: pointer;
     font-weight: 600;
-    border-bottom: 0.3rem solid var(--highlight);
+    border-bottom: 0.3rem solid var(--highlight2);
 }
 
 .filter-active{
     font-weight: 600;
-    border-bottom: 0.3rem solid var(--main);
+    border-bottom: 0.3rem solid var(--highlight);
 }
 
 .products-list{
@@ -112,7 +112,7 @@
     width:max-content;
     color: var(--fontlight);
     font-size: 1.5rem;
-    border-bottom: 0.3rem solid var(--main);
+    border-bottom: 0.3rem solid var(--highlight);
 }
 
 .buttons{

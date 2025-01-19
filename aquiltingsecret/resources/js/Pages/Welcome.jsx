@@ -6,7 +6,7 @@ import Herosection from '../Components/herosection/herosection';
 function Home({ addToCart, removeFromCart }) {
   return (
     <div>
-        <Herosection />
+        <Herosection title='Shop'/>
         <Shop addToCart={addToCart} removeFromCart={removeFromCart} />
     </div>
   )

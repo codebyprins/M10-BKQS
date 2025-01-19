@@ -63,19 +63,19 @@ export default function Shop({ addToCart }) { // Accept addToCart as a prop
                                     alt={product.name}
                                     className="product-img"
                                 />
-                                <div className="product-info">
-                                    <section className='product-text'>
+                                <section className="product-info">
+                                    <article className='product-text'>
                                         <h3 className="product-name">{product.name}</h3>
                                         <p className='product-category'>{product.category}</p>
-                                        <p className="product-price">{product.price}</p>
+                                        <p className="product-price">€{product.price}</p>
                                         <p className='product-size'>{product.measurments}</p>
                                         <p className="product-material">
                                             {Array.isArray(product.info) && product.info[3]
                                                 ? product.info[3]
                                                 : ""}
                                         </p>
-                                    </section>
-                                    <div className="buttons">
+                                    </article>
+                                    <article className="buttons">
                                         <button
                                             id='addToCart'
                                             title='Toevoegen aan winkelwagen'
@@ -86,8 +86,8 @@ export default function Shop({ addToCart }) { // Accept addToCart as a prop
                                         <Link href={route('productpagina')} className="more-button" title="Go to product page">
                                             Meer
                                         </Link>
-                                    </div>
-                                </div>
+                                    </article>
+                                </section>
                             </li>
                         ))
                     ) : (

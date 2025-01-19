@@ -34,7 +34,7 @@
             "id" : "1",
             "name": "Kasmir Paisley",
             "img": "/productimages/IMG_8170.jpeg",
-            "price": "€735",
+            "price": 735,
             "measurments": "228cm x 131cm",
             "category": "Eenpersoonsbed",
             "info": [
@@ -50,7 +50,7 @@
             "id" : "2",
             "name": "Batik",
             "img": "/productimages/IMG_8181.jpeg",
-            "price": "€745",
+            "price": 745,
             "measurments": "192cm x 128cm",
             "category": "Eenpersoonsbed",
             "info": [
@@ -66,7 +66,7 @@
             "id" : "3",
             "name": "Vlinders uit Wassenaar",
             "img": "/productimages/IMG_8195.jpeg",
-            "price": "€875",
+            "price": 875,
             "measurments": "234cm x 171cm",
             "category": "Twijfelaar",
             "info": [
@@ -82,7 +82,7 @@
             "id" : "4",
             "name": "Covert Garden",
             "img": "/productimages/IMG_8205.jpeg",
-            "price": "€995",
+            "price": 995,
             "measurments": "285cm x 160cm",
             "category": "Twijfelaar",
             "info": [
@@ -98,7 +98,7 @@
             "id" : "5",
             "name": "Couvert Garden White",
             "img": "/productimages/IMG_8245.jpeg",
-            "price": "€110",
+            "price": 110,
             "measurments": "77x54",
             "category": "Kussens",
             "info": [
@@ -114,7 +114,7 @@
             "id" : "6",
             "name": "Couvert Garden Black",
             "img": "/productimages/IMG_8217.jpeg",
-            "price": "€110",
+            "price": 110,
             "measurments": "77x54",
             "category": "Kussens",
             "info": [
@@ -130,7 +130,7 @@
             "id" : "7",
             "name": "Julliete",
             "img": "/productimages/IMG_8234.jpeg",
-            "price": "€95",
+            "price": 95,
             "measurments": "48x47",
             "category": "Kussens",
             "info": [
@@ -146,7 +146,7 @@
             "id" : "8",
             "name": "Julliete",
             "img": "/productimages/IMG_8239.jpeg",
-            "price": "€95",
+            "price": 95,
             "measurments": "66x47",
             "category": "Kussens",
             "info": [
@@ -162,7 +162,7 @@
             "id" : "9",
             "name": "Julliete",
             "img": "/productimages/IMG_8230.jpeg",
-            "price": "€65",
+            "price": 65,
             "measurments": "66x47",
             "category": "Kussens",
             "info": [
@@ -178,7 +178,7 @@
             "id" : "10",
             "name": "Julliete",
             "img": "/productimages/IMG_8225.jpeg",
-            "price": "€65",
+            "price": 65,
             "measurments": "85x48",
             "category": "Kussens",
             "info": [
@@ -194,7 +194,7 @@
             "id" : "11",
             "name": "Kashmir Paisley",
             "img": "/productimages/IMG_8260.jpeg",
-            "price": "€175",
+            "price": 175,
             "measurments": "77cm x 76cm",
             "category": "Kinderwagendeken",
             "info": [
@@ -209,7 +209,7 @@
             "id" : "12",
             "name": "Kashmir Paisley met blauwe batik",
             "img": "/productimages/IMG_8260.jpeg",
-            "price": "€175",
+            "price": 175,
             "measurments": "77cm x 76cm",
             "category": "Kinderwagendeken",
             "info": [
@@ -224,7 +224,7 @@
             "id" : "13",
             "name": "Kashmir Paisley met blauwe batik",
             "img": "/productimages/IMG_8265.jpeg",
-            "price": "€175",
+            "price": 175,
             "measurments": "74cm x 72cm",
             "category": "Kinderwagendeken",
             "info": [
@@ -239,7 +239,7 @@
             "id" : "14",
             "name": "Summer Breeze",
             "img": "/productimages/IMG_8272.jpeg",
-            "price": "€305",
+            "price": 305,
             "measurments": "160x100",
             "category": "Ledikant",
             "info": [
@@ -255,7 +255,7 @@
             "id" : "15",
             "name": "Summer Breeze - donkerblauwe boterbloem",
             "img": "/productimages/IMG_8282.jpeg",
-            "price": "€555",
+            "price": 555,
             "measurments": "150x100",
             "category": "ledikant",
             "info": [
@@ -271,7 +271,7 @@
             "id" : "16",
             "name": "Summer Breeze - moda - edelwise",
             "img": "/productimages/IMG_8290.jpeg",
-            "price": "€555",
+            "price": 555,
             "measurments": "150cm x 100cm",
             "category": "ledikant",
             "info":[
@@ -287,7 +287,7 @@
             "id" : "17",
             "name": "Bali batik - oneindige knoop",
             "img": "/productimages/IMG_8296.jpeg",
-            "price": "€555",
+            "price": 555,
             "measurments": "130cm x 100cm",
             "category": "ledikant",
             "info": [
@@ -303,7 +303,7 @@
             "id" : "18",
             "name": "Bali batik - oneindige knoop",
             "img": "/productimages/IMG_8306.jpeg",
-            "price": "€555",
+            "price": 555,
             "measurments": "130 cm x 100cm",
             "category": "Ledikant",
             "info": [
@@ -319,7 +319,7 @@
             "id" : "19",
             "name": "Roses on the vine - visgraat - four patch",
             "img": "/productimages/IMG_8314.jpeg",
-            "price": "€435",
+            "price": 435,
             "measurments": "140cm x 100cm",
             "category": "ledikant",
             "info": [
@@ -335,7 +335,7 @@
             "id" : "20",
             "name": "Rosewater",
             "img": "/productimages/IMG_8322.jpeg",
-            "price": "€650",
+            "price": 650,
             "measurments": "246x163",
             "category": "Twijfelaar",
             "info": [
@@ -351,7 +351,7 @@
             "id" : "21",
             "name": "Kerst Quilt",
             "img": "/productimages/IMG_8332.jpeg",
-            "price": "€625",
+            "price": 625,
             "measurments": "200x153",
             "category": "Eenpersoonsbed",
             "info": [
@@ -367,7 +367,7 @@
             "id" : "22",
             "name": "Julliete",
             "img": "/productimages/IMG_8347.jpeg",
-            "price": "€935",
+            "price": 935,
             "measurments": "223cm x 185cm",
             "category": "Twijfelaar",
             "info": [
@@ -383,7 +383,7 @@
             "id" : "23",
             "name": "Bali batik - olive blue",
             "img": "/productimages/IMG_8356.jpeg",
-            "price": "€1185",
+            "price": 1185,
             "measurments": "220cm x 163cm",
             "category": "Twijfelaar",
             "info": [
@@ -399,7 +399,7 @@
             "id" : "24",
             "name": "Dancing with the Dragonflies",
             "img": "/productimages/IMG_8365.jpeg",
-            "price": "€795",
+            "price": 795,
             "measurments": "239cm x 125cm",
             "category": "Eenpersoonsbed",
             "info": [
@@ -414,7 +414,7 @@
             "id" : "25",
             "name": "Batik",
             "img": "/productimages/IMG_8377.jpeg",
-            "price": "€745",
+            "price": 745,
             "measurments": "210cm x 115cm",
             "category": "Eenpersoonsbed",
             "info": [
@@ -430,7 +430,7 @@
             "id" : "26",
             "name": "Summer Breeze - Dahlia donker blauw",
             "img": "/productimages/IMG_8387.jpeg",
-            "price": "€2250",
+            "price": 2250,
             "measurments": "250cm x 245cm",
             "category": "Tweepersoonsbed",
             "info": [
@@ -446,7 +446,7 @@
             "id" : "27",
             "name": "Summer Breeze - Dahlia geel",
             "img": "/productimages/IMG_8398.jpeg",
-            "price": "€2500",
+            "price": 2500,
             "measurments": "262cm x 260cm",
             "category": "Tweepersoonsbed",
             "info": [
@@ -462,7 +462,7 @@
             "id" : "28",
             "name": "Summer Breeze - Witte edelweiss",
             "img": "/productimages/IMG_8413.jpeg",
-            "price": "€1495",
+            "price": 1495,
             "measurments": "260x150",
             "category": "Eenpersoonsbed",
             "info": [
@@ -478,7 +478,7 @@
             "id" : "29",
             "name": "Poppies - zwarte kaders",
             "img": "/productimages/IMG_8423.jpeg",
-            "price": "€1375",
+            "price": 1375,
             "measurments": "260cm x 260cm",
             "category": "Tweepersoonsbed",
             "info": [
@@ -494,7 +494,7 @@
             "id" : "30",
             "name": "Roses on the vine - visgraat",
             "img": "/productimages/IMG_8433.jpeg",
-            "price": "€1295",
+            "price": 1295,
             "measurments": "245cm x 245cm",
             "category": "Tweepersoonsbed",
             "info": [
@@ -510,7 +510,7 @@
             "id" : "31",
             "name": "Poppies - roze kaders",
             "img": "/productimages/IMG_8442.jpeg",
-            "price": "€1375",
+            "price": 1375,
             "measurments": "260cm x 255cm",
             "category": "Tweepersoonsbed",
             "info": [
